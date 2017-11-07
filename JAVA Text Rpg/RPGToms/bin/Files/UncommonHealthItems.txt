@@ -1,0 +1,9 @@
+9 Improved-Healing-Herb 2 30 125 This-Herb-heals-the-Player-25HP
+10 Improved-Antidote 2 25 120 This-Antidote-cures-the-poison-effect-from-Player-and-Heals-10HP
+11 Improved-Anti-Paralysis 2 25 120 This-Anti-Paralysis-cures-the-paralysis-effect-from-Player-and-Heals-10HP
+12 Improved-Burn-Cream 2 25 120 This-Burn-Cream-cures-the-paralysis-effect-from-Player-and-Heals-10HP
+13 Improved-Warming-Gel 2 25 120 This-Warming-Gel-cures-the-burn-effect-from-Player-and-Heals-10HP
+14 Improved-Morning-Flower 2 25 120 This-Morning-Flower-cures-the-sleep-effect-from-Player-and-Heals-10HP
+15 Improved-Pure-Chime 2 25 120 This-Pure-Chime-cures-the-sleep-effect-from-Player-and-Heals-10HP
+16 Improved-Repealing-Charm 2 35 130 This-Repealing-Charm-makes-Enemies-avoid-You-It-Lasts-for-More-Areas-Than-Simple
+17 Improved-Attraction-Lotion 2 65 160 This-Simple-Attraction-Lotion-attracts-Low-Level-Enemies-Lasts-for-More-Areas-Than-Simple
