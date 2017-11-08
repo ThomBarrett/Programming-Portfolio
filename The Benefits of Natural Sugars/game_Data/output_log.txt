@@ -1,0 +1,73 @@
+Mono path[0] = 'C:/Users/Thomas Barrett/Documents/Game/game_Data/Managed'
+Mono path[1] = 'C:/Users/Thomas Barrett/Documents/Game/game_Data/Mono'
+Mono config path = 'C:/Users/Thomas Barrett/Documents/Game/game_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Thomas Barrett/Documents/Game/game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55257
+Multi-casting "[IP] 192.168.0.5 [Port] 55257 [Flags] 3 [Guid] 1263089916 [EditorId] 2246573429 [Version] 1048832 [Id] WindowsPlayer(DESKTOP-1O8R4BK) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [0.0.0.0:55257]...
+PlayerConnection accepted from [192.168.0.5] handle:0x328
+Started listening to [0.0.0.0:55257]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56916
+PlayerConnection already initialized - listening to [0.0.0.0:55257]
+Player data archive not found at `C:/Users/Thomas Barrett/Documents/Game/game_Data/data.unity3d`, using local filesystemInitialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 M430 (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   21.19.137.514
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.026 seconds
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Thomas Barrett\Documents\Game\game_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 4.815792 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.936975 ms
+System memory in use before: 21.9 MB.
+System memory in use after: 21.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 387.
+Total: 0.328690 ms (FindLiveObjects: 0.038715 ms CreateObjectMapping: 0.015802 ms MarkObjects: 0.246518 ms  DeleteObjects: 0.026469 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3628 -> priority: 1 
+  Thread -> id: 361c -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyXController.OnDestroy () [0x00001] in C:\Users\Thomas Barrett\Documents\Game\Assets\Code\EnemyXController.cs:78 
+ 
+(Filename: C:/Users/Thomas Barrett/Documents/Game/Assets/Code/EnemyXController.cs Line: 78)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyXController.OnDestroy () [0x00001] in C:\Users\Thomas Barrett\Documents\Game\Assets\Code\EnemyXController.cs:78 
+ 
+(Filename: C:/Users/Thomas Barrett/Documents/Game/Assets/Code/EnemyXController.cs Line: 78)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyXController.OnDestroy () [0x00001] in C:\Users\Thomas Barrett\Documents\Game\Assets\Code\EnemyXController.cs:78 
+ 
+(Filename: C:/Users/Thomas Barrett/Documents/Game/Assets/Code/EnemyXController.cs Line: 78)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyXController.OnDestroy () [0x00001] in C:\Users\Thomas Barrett\Documents\Game\Assets\Code\EnemyXController.cs:78 
+ 
+(Filename: C:/Users/Thomas Barrett/Documents/Game/Assets/Code/EnemyXController.cs Line: 78)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyXController.OnDestroy () [0x00001] in C:\Users\Thomas Barrett\Documents\Game\Assets\Code\EnemyXController.cs:78 
+ 
+(Filename: C:/Users/Thomas Barrett/Documents/Game/Assets/Code/EnemyXController.cs Line: 78)
+
+Waiting for finish
