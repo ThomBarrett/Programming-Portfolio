@@ -1,0 +1,6 @@
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\bin\Release\DungeonMakerText.exe.config
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\bin\Release\DungeonMakerText.exe
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\bin\Release\DungeonMakerText.pdb
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\obj\Release\DungeonMakerText.csprojResolveAssemblyReference.cache
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\obj\Release\DungeonMakerText.exe
+C:\Users\Thomas Barrett\documents\visual studio 2015\Projects\DungeonMakerText\DungeonMakerText\obj\Release\DungeonMakerText.pdb
