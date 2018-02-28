@@ -13,6 +13,8 @@ namespace Blackjack
         private int turnCounts = 0;
         private Queue<Player> players = new Queue<Player>();
 
+        
+        //We create alll the cards for all four suits excluding the jokers
         private Card[] allTheCards = {
             new Card('H',"A"), new Card('H',"2"), new Card('H',"3"), new Card('H',"4"), new Card('H',"5"), new Card('H',"6"),
             new Card('H',"7"), new Card('H',"8"), new Card('H',"9"), new Card('H',"10"),new Card('H',"J"), new Card('H',"Q"), new Card('H',"K"),
@@ -27,6 +29,7 @@ namespace Blackjack
             new Card('D',"7"), new Card('D',"8"), new Card('D',"9"), new Card('D',"10"),new Card('D',"J"), new Card('D',"Q"), new Card('D',"K"),
         };
 
+        
         private Queue<Card> dealersCards = new Queue<Card>();
         public Game() {
 
@@ -34,6 +37,7 @@ namespace Blackjack
             Console.Out.WriteLine("    <--BLACKJACK-->");
             Console.Out.WriteLine();
 
+            //Ask the user how many people will be playing the game
             Console.Out.Write("  How Many Players: ");
             playerCount = int.Parse(Console.In.ReadLine());
 
@@ -45,7 +49,7 @@ namespace Blackjack
 
         }
 
-        public void CreateThePlayers(int ammountOfPlayers)
+        public void CreateThePlayers(int ammountOfPlayers) //Create the ammount of players based on users requirement
         {
             for (int i = 0; i < ammountOfPlayers; i++)
             {
@@ -69,6 +73,7 @@ namespace Blackjack
 
         public void Shuffle()
         {
+            //We reorder the cards and save them into a queue which will be used for handling the dealing 
             Random rnd = new Random();
             Card[] ShuffledCards = allTheCards.OrderBy(x => rnd.Next()).ToArray();
             allTheCards = ShuffledCards;
@@ -76,7 +81,7 @@ namespace Blackjack
             dealersCards = new Queue<Card>(allTheCards);
         }
         
-        public void Deal()
+        public void Deal() //This function calls the currentplayers deal function to give it cards
         {
             Console.Clear();
             Console.Out.WriteLine();
@@ -95,7 +100,7 @@ namespace Blackjack
         
         }
 
-        public void Turn()
+        public void Turn() //Keep doing players turn untill their turn is over
         {
             if(players.Peek().Turn(ref dealersCards, ref players))
             {
@@ -111,10 +116,10 @@ namespace Blackjack
         {
             turnCounts++;
 
-            if(turnCounts == playerCount)
+            if(turnCounts == playerCount) //If all players have taken their turns 
             {
                 Console.Clear();
-                //Show play who won round
+                //Show players who won round
                 turnCounts = 0;
                 Dictionary<String, int?> rosta = new Dictionary<String, int?>();
                 foreach(Player player in players)
