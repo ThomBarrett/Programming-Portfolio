@@ -16,7 +16,7 @@ namespace Blackjack
         private int? aceValue = null;
         public Card(char type, String name)
         {
-            switch (type)
+            switch (type) //Based on type assign the correct symbol
             {
                 case 'H':
                     this.type = '♥';
@@ -35,7 +35,7 @@ namespace Blackjack
             }
             this.name = name;
 
-            switch (name)
+            switch (name) // Assign the correct values to each card
             {
                 case "A":
                     this.value = 11; this.aceValue = 1;
@@ -96,7 +96,7 @@ namespace Blackjack
 
         public void Print()
         {
-            if(type == '♥' || type == '♦')
+            if(type == '♥' || type == '♦') //Based on suit it will the font colour will change
             {
                 Console.ForegroundColor = ConsoleColor.Red;
             }
@@ -105,7 +105,7 @@ namespace Blackjack
                 Console.ForegroundColor = ConsoleColor.White;
             }
 
-            Console.OutputEncoding = Encoding.UTF8;
+            Console.OutputEncoding = Encoding.UTF8; //Change the encoding of the output to allow the card symbols to be displayed. Make sure the CMD font is compatatable or you will get boxes with question marks
             Console.Out.Write("  " + name + type + " ");
         }
 
@@ -114,7 +114,7 @@ namespace Blackjack
             return value;
         }
 
-        public int? getAceValue()
+        public int? getAceValue() //This function exists for the ace card because a ACE card can be different values 11 or 1
         {
             return aceValue;
         }
