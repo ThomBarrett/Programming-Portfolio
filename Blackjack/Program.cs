@@ -12,8 +12,8 @@ namespace Blackjack
         static void Main(string[] args)
         {
             
-            Game session = new Game();
-            Console.In.ReadLine();
+            Game session = new Game(); //Creates the Game session See Game Constructor for details
+            Console.In.ReadLine(); //EOF
         }
     }
 }
