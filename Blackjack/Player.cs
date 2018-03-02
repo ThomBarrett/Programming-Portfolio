@@ -105,8 +105,10 @@ namespace Blackjack
                     break;
 
                 case 4:
-                    DoubleDown();
-                    break;
+                    DoubleDown(ref dealersCards);
+                    Console.Clear();
+                    Console.Out.WriteLine(this.playerName);
+                    return true;
             }
             //Hit ME
             //Stand
@@ -136,13 +138,14 @@ namespace Blackjack
             */
         }
 
-        public void DoubleDown() //Unimplemented
+        public void DoubleDown()
         {
             /*
             According to blackjack rules
             you can choose to only take one more card and stand doing this allows you to raise your bet but it's risky
             this is called Doubling down
             */
+            playerHand.AddLast(dealersCards.Dequeue());
         }
 
         public void CardsBackToDealer(ref Queue<Card> dealerscards) //At the end of each players turn they pass back all cards to the dealer
