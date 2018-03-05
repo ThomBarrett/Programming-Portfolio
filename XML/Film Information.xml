@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  
+  <film name ="Hot Fuzz">
+    <name>Hot Fuzz</name>
+    <agerating>18</agerating>
+    <genre>Comedy, Action</genre>
+  </film>
+
+  <film name ="Matrix">
+    <name>Matrix</name>
+    <agerating>15</agerating>
+    <genre>SciFi</genre>
+  </film>
+
+  <film name ="The Lion King">
+    <name>The Lion King</name>
+    <agerating>U</agerating>
+    <genre>Cartoon</genre>
+  </film>
+
+</root>
