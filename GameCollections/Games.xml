@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+
+  <game name = "New Super Mario Bros">
+    <name>New Super Mario Bros</name>
+    <genre>Platformer</genre>
+    <agerating>3</agerating>
+    <platform>DS</platform>
+  </game>
+
+  <game name = "KAO ROUND 2 THE KANGEROO">
+    <name>KAO ROUND 2 THE KANGEROO</name>
+    <genre>Adventure</genre>
+    <agerating>7</agerating>
+    <platform>Playstation 2</platform>
+  </game>
+
+</root>
