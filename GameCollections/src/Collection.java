@@ -21,6 +21,12 @@ public class Collection {
     }
     //CONSTRUCTOR
 
+    //GETTERS
+    public HashMap<String, Game> getGameCollection(){
+        return this.gameCollection;
+    }
+    //GETTERS
+
     //ADD METHODS
     public void addGame(){
         Scanner scan;
@@ -369,9 +375,12 @@ public class Collection {
     public static void main(String[] args){
         CollectionController collectionController = new CollectionController();
 
+        Window window = new Window();
+
         while(1 == 1) {
             collectionController.ShowUserInterface();
         }
     }
     //MAIN
 }
+
