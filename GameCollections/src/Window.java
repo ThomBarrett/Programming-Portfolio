@@ -220,7 +220,7 @@ public class Window {
             allGames[count][1] = data.get(key).getGenre();
             allGames[count][2] = data.get(key).getAgeRating();
             allGames[count][3] = data.get(key).getPlatform();
-
+            count++;
         }
 
         JTable table = new JTable(allGames, columnNames);
@@ -231,7 +231,18 @@ public class Window {
 
         showAllMenu.add(tableScroller);
 
+        JButton back = new JButton("Back");
+        back.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                unsetShowAllMenu();
+            }
+        });
+
+        showAllMenu.add(back);
+
         window.add(showAllMenu);
+
 
         window.revalidate();
         window.repaint();
@@ -313,5 +324,13 @@ public class Window {
         window.revalidate();
         window.repaint();
     }
+
+    private void unsetShowAllMenu(){
+        window.remove(showAllMenu);
+        window.add(mainMenu);
+        window.revalidate();
+        window.repaint();
+    }
     //UNSET MENU METHODS
 }
+
