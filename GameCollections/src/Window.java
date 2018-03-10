@@ -1,26 +1,25 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.HashMap;
 
-public class Window {
+class Window {
 
     private Collection collection;
 
     private JFrame window; //The window
 
-    private JPanel mainMenu, addMenu, removeMenu, showAllMenu, searchMenu, saveMenu; //All menu
+    private JPanel mainMenu, addMenu, removeMenu, showAllMenu, searchMenu, searchResultsMenu, saveMenu; //All menu
     private JButton add, remove, showAll, search, load, write; //All main menu buttons
     private JButton xml, json, html; //Save menu buttons
     private JButton back, submit; //Controls
     private JTextField nameBox, genreBox, ageRatingBox, platformBox; //Add menu text fileds
-    private JTextField searchBox; //Search menu text fields
+    private JTextField searchBox;
+    private Object[][] searchData;//Search menu text fields
     private JTextField removeBox;
 
     //CONSTRUCTORS
-    public Window(){
+    Window(){
         window = new JFrame("Game Collections");
         window.setSize(300,300);
         collection = new Collection();
@@ -37,116 +36,74 @@ public class Window {
     //CREATE BUTTONS WITH ACTION LISTENERS
     private void createMainMenuButtonActionListeners(){
         add = new JButton("Add");
-        add.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                addButtonClicked();
-            }
-        });
+        add.addActionListener(e -> addButtonClicked());
 
         remove = new JButton("Remove");
-        remove.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                removeButtonClicked();
-            }
-        });
+        remove.addActionListener(e -> removeButtonClicked());
 
         showAll = new JButton("Show All");
-        showAll.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                showAllButtonClicked();
-            }
-        });
+        showAll.addActionListener(e -> showAllButtonClicked());
 
         search = new JButton("Search");
-        search.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                searchButtonClicked();
-            }
-        });
+        search.addActionListener(e -> searchButtonClicked());
 
         load = new JButton("Load");
-        load.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                loadButtonClicked();
-            }
-        });
+        load.addActionListener(e -> loadButtonClicked());
 
         write = new JButton("Save As");
-        write.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                saveAsButtonClicked();
-            }
-        });
+        write.addActionListener(e -> saveAsButtonClicked());
     }
 
     private void createSaveMenuButtonActionListeners(){
         xml = new JButton("XML");
-        xml.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    collection.CreateXMLForALLData();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
+        xml.addActionListener(e -> {
+            try {
+                collection.CreateXMLForALLData();
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
         });
 
         json = new JButton("JSON");
-        json.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    collection.CreateJSONForALLData();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
+        json.addActionListener(e -> {
+            try {
+                collection.CreateJSONForALLData();
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
         });
 
         html = new JButton("HTML");
-        html.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    collection.CreateHTMLForALLData();
-                } catch (IOException e1) {
-                    e1.printStackTrace();
-                }
+        html.addActionListener(e -> {
+            try {
+                collection.CreateHTMLForALLData();
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
         });
 
         back = new JButton("Back");
-        back.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                unsetPanel(saveMenu);
-            }
-        });
+        back.addActionListener(e -> unsetPanel(saveMenu));
     }
 
     private void createRemoveMenuButtonActionListeners(){
         submit = new JButton("Remove");
-        submit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                collection.removeGame(removeBox.getText());
-            }
+        submit.addActionListener(e -> collection.removeGame(removeBox.getText()));
+
+        back = new JButton("Back");
+        back.addActionListener(e -> unsetPanel(removeMenu));
+    }
+
+    private void createSearchMenuButtonActionListeners(){
+        submit = new JButton("Search");
+        submit.addActionListener(e -> {
+           searchData = collection.searchAllFromForm(searchBox.getText());
+           window.remove(searchMenu);
+           setSearchResultsMenu();
         });
 
         back = new JButton("Back");
-        submit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                unsetPanel(removeMenu);
-            }
-        });
+        back.addActionListener(e -> unsetPanel(searchMenu));
     }
     //CREATE BUTTONS WITH ACTION LISTENERS
 
@@ -179,36 +136,28 @@ public class Window {
         platformBox.setColumns(25);
 
         JButton submit = new JButton("Submit");
-        submit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if(nameBox.getText().length() < 1){
-                    return;
-                }
-                if(genreBox.getText().length() < 1){
-                    return;
-                }
-                if(ageRatingBox.getText().length() < 1){
-                    return;
-                }
-                if(platformBox.getText().length() < 1){
-                    return;
-                }
-                collection.addGame(nameBox.getText(),genreBox.getText(),(byte)Integer.parseInt(ageRatingBox.getText()), platformBox.getText());
-                nameBox.setText("");
-                genreBox.setText("");
-                ageRatingBox.setText("");
-                platformBox.setText("");
+        submit.addActionListener(e -> {
+            if(nameBox.getText().length() < 1){
+                return;
             }
+            if(genreBox.getText().length() < 1){
+                return;
+            }
+            if(ageRatingBox.getText().length() < 1){
+                return;
+            }
+            if(platformBox.getText().length() < 1){
+                return;
+            }
+            collection.addGame(nameBox.getText(),genreBox.getText(),(byte)Integer.parseInt(ageRatingBox.getText()), platformBox.getText());
+            nameBox.setText("");
+            genreBox.setText("");
+            ageRatingBox.setText("");
+            platformBox.setText("");
         });
 
         JButton back = new JButton("Back");
-        back.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                unsetPanel(addMenu);
-            }
-        });
+        back.addActionListener(e -> unsetPanel(addMenu));
 
         addMenu.add(nameBox);
         addMenu.add(genreBox);
@@ -265,12 +214,7 @@ public class Window {
         showAllMenu.add(tableScroller);
 
         JButton back = new JButton("Back");
-        back.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                unsetPanel(showAllMenu);
-            }
-        });
+        back.addActionListener(e -> unsetPanel(showAllMenu));
 
         showAllMenu.add(back);
 
@@ -281,8 +225,47 @@ public class Window {
         window.repaint();
     }
 
-    private void setSearchMenu(){
+    private void setSearchResultsMenu(){
+        searchResultsMenu = new JPanel();
 
+        String[] columnNames = {"Name","Genre","Age Rating","Platform"};
+
+
+        JTable table = new JTable(searchData, columnNames);
+        table.setPreferredScrollableViewportSize(new Dimension(250,200));
+        table.setFillsViewportHeight(true);
+
+        JScrollPane tableScroller = new JScrollPane(table);
+
+        searchResultsMenu.add(tableScroller);
+
+        JButton back = new JButton("Back");
+        back.addActionListener(e -> unsetPanel(searchResultsMenu));
+
+        searchResultsMenu.add(back);
+
+        window.add(searchResultsMenu);
+
+        window.revalidate();
+        window.repaint();
+    }
+
+    private void setSearchMenu(){
+        searchMenu = new JPanel();
+
+        searchBox = new JTextField();
+        searchBox.setColumns(25);
+        createSearchMenuButtonActionListeners();
+
+        searchMenu.add(searchBox);
+        searchMenu.add(submit);
+        searchMenu.add(back);
+
+
+        window.add(searchMenu);
+
+        window.revalidate();
+        window.repaint();
     }
 
     private void setSaveMenu(){
@@ -322,7 +305,6 @@ public class Window {
     private void searchButtonClicked() {
         unsetMainMenu();
         setSearchMenu();
-
     }
 
     private void loadButtonClicked() {
@@ -350,3 +332,4 @@ public class Window {
     }
     //UNSET MENU METHODS
 }
+
