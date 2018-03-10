@@ -3,19 +3,21 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Window {
 
     private Collection collection;
 
-    private JFrame window;
-    private JPanel mainMenu, addMenu, removeMenu, showAllMenu, searchMenu, saveMenu;
-    private JButton add, remove, showAll, search, load, write;
-    private JButton xml, json, html, back;
-    private JTextField nameBox, genreBox, ageRatingBox, platformBox;
-    private JTextField searchBox;
+    private JFrame window; //The window
+
+    private JPanel mainMenu, addMenu, removeMenu, showAllMenu, searchMenu, saveMenu; //All menu
+    private JButton add, remove, showAll, search, load, write; //All main menu buttons
+    private JButton xml, json, html; //Save menu buttons
+    private JButton back, submit; //Controls
+    private JTextField nameBox, genreBox, ageRatingBox, platformBox; //Add menu text fileds
+    private JTextField searchBox; //Search menu text fields
+    private JTextField removeBox;
 
     //CONSTRUCTORS
     public Window(){
@@ -124,7 +126,25 @@ public class Window {
         back.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                unsetSaveMenu();
+                unsetPanel(saveMenu);
+            }
+        });
+    }
+
+    private void createRemoveMenuButtonActionListeners(){
+        submit = new JButton("Remove");
+        submit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                collection.removeGame(removeBox.getText());
+            }
+        });
+
+        back = new JButton("Back");
+        submit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                unsetPanel(removeMenu);
             }
         });
     }
@@ -146,7 +166,7 @@ public class Window {
         window.add(mainMenu);
     }
 
-    public void setAddMenu(){
+    private void setAddMenu(){
         addMenu = new JPanel();
 
         nameBox = new JTextField();
@@ -186,7 +206,7 @@ public class Window {
         back.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                unsetAddMenu();
+                unsetPanel(addMenu);
             }
         });
 
@@ -202,11 +222,24 @@ public class Window {
         window.repaint();
     }
 
-    public void setRemoveMenu(){
+    private void setRemoveMenu(){
+        removeMenu = new JPanel();
 
+        removeBox = new JTextField();
+        removeBox.setColumns(25);
+        createRemoveMenuButtonActionListeners();
+
+        removeMenu.add(removeBox);
+        removeMenu.add(submit);
+        removeMenu.add(back);
+
+        window.add(removeMenu);
+
+        window.revalidate();
+        window.repaint();
     }
 
-    public void setShowAllMenu(){
+    private void setShowAllMenu(){
         showAllMenu = new JPanel();
 
         HashMap<String, Game> data = collection.getGameCollection();
@@ -235,7 +268,7 @@ public class Window {
         back.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                unsetShowAllMenu();
+                unsetPanel(showAllMenu);
             }
         });
 
@@ -248,11 +281,11 @@ public class Window {
         window.repaint();
     }
 
-    public void setSearchMenu(){
+    private void setSearchMenu(){
 
     }
 
-    public void setSaveMenu(){
+    private void setSaveMenu(){
         saveMenu = new JPanel();
 
         createSaveMenuButtonActionListeners();
@@ -277,6 +310,7 @@ public class Window {
 
     private void removeButtonClicked(){
         unsetMainMenu();
+        setRemoveMenu();
     }
 
     private void showAllButtonClicked() {
@@ -287,6 +321,7 @@ public class Window {
 
     private void searchButtonClicked() {
         unsetMainMenu();
+        setSearchMenu();
 
     }
 
@@ -307,30 +342,11 @@ public class Window {
         window.repaint();
     }
 
-    private void unsetAddMenu(){
-        window.remove(addMenu);
-        window.add(mainMenu);
-        window.revalidate();
-        window.repaint();
-    }
-
-    private void unsetRemoveMenu(){
-
-    }
-
-    private void unsetSaveMenu(){
-        window.remove(saveMenu);
-        window.add(mainMenu);
-        window.revalidate();
-        window.repaint();
-    }
-
-    private void unsetShowAllMenu(){
-        window.remove(showAllMenu);
+    private void unsetPanel(JPanel currentPanel){
+        window.remove(currentPanel);
         window.add(mainMenu);
         window.revalidate();
         window.repaint();
     }
     //UNSET MENU METHODS
 }
-
