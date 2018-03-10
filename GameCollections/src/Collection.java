@@ -106,6 +106,28 @@ public class Collection {
         }
     }
 
+    public Object[][] searchAllFromForm(String input){
+        int elementCount = 0;
+        for (String key : gameCollection.keySet()) {
+            if(gameCollection.get(key).getName().toLowerCase().contains(input.toLowerCase())){
+                elementCount++;
+            }
+        }
+
+        Object[][] foundGames = new Object[elementCount][4];
+        int count = 0;
+        for(String key : gameCollection.keySet()){
+            if(gameCollection.get(key).getName().toLowerCase().contains(input.toLowerCase())) {
+                foundGames[count][0] = gameCollection.get(key).getName();
+                foundGames[count][1] = gameCollection.get(key).getGenre();
+                foundGames[count][2] = gameCollection.get(key).getAgeRating();
+                foundGames[count][3] = gameCollection.get(key).getPlatform();
+                count++;
+            }
+        }
+        return foundGames;
+    }
+
     public void searchAll(String keyToSearch){
         boolean resultsPresent = false;
         for (String key : gameCollection.keySet()) {
@@ -383,4 +405,5 @@ public class Collection {
     }
     //MAIN
 }
+
 
