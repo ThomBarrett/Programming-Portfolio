@@ -1,6 +1,6 @@
 
 public class Game {
-
+    
     //ATTRIBUTES
     private String name;
     private String genre;
@@ -20,10 +20,6 @@ public class Game {
     //GETTERS
     public String getName () {
         return name;
-    }
-
-    public String getNameToLower () {
-        return getName().toLowerCase();
     }
 
     public String getGenre () {
@@ -56,7 +52,5 @@ public class Game {
         System.out.println(this.name + ", " + this.platform);
     }
     //OUTPUT METHODS
-
-
-
+    
 }
