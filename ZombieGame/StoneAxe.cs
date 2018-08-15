@@ -8,39 +8,10 @@ namespace ZombieGame
 {
     class StoneAxe : Item
     {
-        public override void AddAmmount(int ammount)
+        public StoneAxe()
         {
-            throw new NotImplementedException();
-        }
-
-        public override void Display(ConsoleColor locationColor)
-        {
-            throw new NotImplementedException();
-        }
-
-        public override int? GetAmmount()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override ConsoleColor GetColor()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override char? GetSymbol()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override bool IsConsumable()
-        {
-            return false;
-        }
-
-        public override void MinusAmmount(int ammount)
-        {
-            throw new NotImplementedException();
+            this.displayable = new NotItemDisplayable();
+            this.consumable = new NotItemConsumable();
         }
     }
 }

@@ -16,6 +16,9 @@ namespace ZombieGame
         private int offsetX = 10;
         private int offsetY = 10;
 
+        private int maxEnemies = 50;
+        private int currentEnemies;
+
         private Location[,] locationLayer;
         private Item[,] itemLayer;
         private Entity[,] entityLayer;
@@ -239,6 +242,20 @@ namespace ZombieGame
             }
             entityLayer[playerY = 10, playerX = 10] = new Player(playerY, playerX, Direction.UP);
 
+            Random rand = new Random();
+
+            for (int y = 0; y < sizeY; y++)
+            {
+                for (int x = 0; x < sizeX; x++)
+                {
+                    if(rand.Next(1,101) < 2)
+                    {
+                        entityLayer[y, x] = new Zombie();
+
+                    }
+                }
+            }
+
         }
 
         private void Input()
@@ -329,11 +346,13 @@ namespace ZombieGame
 
                 if (playerY != 0)
                 {
-                    entityLayer[playerY, playerX] = new EmptyEntity();
+                    if (entityLayer[playerY - 1, playerX].GetType().Name.Equals("EmptyEntity")){
+                        entityLayer[playerY, playerX] = new EmptyEntity();
 
-                    playerY--;
+                        playerY--;
 
-                    entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.UP);
+                        entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.UP);
+                    }
                 }
                 else
                 {
@@ -350,11 +369,14 @@ namespace ZombieGame
             {
                 if (playerY != sizeY - 1)
                 {
-                    entityLayer[playerY, playerX] = new EmptyEntity();
+                    if (entityLayer[playerY + 1, playerX].GetType().Name.Equals("EmptyEntity"))
+                    {
+                        entityLayer[playerY, playerX] = new EmptyEntity();
 
-                    playerY++;
+                        playerY++;
 
-                    entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.DOWN);
+                        entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.DOWN);
+                    }
                 }
                 else
                 {
@@ -370,11 +392,14 @@ namespace ZombieGame
             {
                 if (playerX != 0)
                 {
-                    entityLayer[playerY, playerX] = new EmptyEntity();
+                    if (entityLayer[playerY, playerX - 1].GetType().Name.Equals("EmptyEntity"))
+                    {
+                        entityLayer[playerY, playerX] = new EmptyEntity();
 
-                    playerX--;
+                        playerX--;
 
-                    entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.LEFT);
+                        entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.LEFT);
+                    }
                 }
                 else
                 {
@@ -390,11 +415,14 @@ namespace ZombieGame
             {
                 if (playerX != sizeX - 1)
                 {
-                    entityLayer[playerY, playerX] = new EmptyEntity();
+                    if (entityLayer[playerY, playerX + 1].GetType().Name.Equals("EmptyEntity"))
+                    {
+                        entityLayer[playerY, playerX] = new EmptyEntity();
 
-                    playerX++;
+                        playerX++;
 
-                    entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.RIGHT);
+                        entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.RIGHT);
+                    }
                 }
                 else
                 {
@@ -455,19 +483,26 @@ namespace ZombieGame
 
         private void CollectItem(String itemName)
         {
+            int multiplier = 1;
+
+            if (PlayerInformation.CheckCurrentSlot("StoneAxe"))
+            {
+                multiplier = 5;
+            }
+
             switch (itemName)
             {
                 case "Tree":
-                    PlayerInformation.AddItem(0, new Wood());
+                    PlayerInformation.AddItem(0, new Wood(1 * multiplier));
                     break;
 
                 case "Rock":
-                    PlayerInformation.AddItem(1, new Stone());
+                    PlayerInformation.AddItem(1, new Stone(1 * multiplier));
                     break;
             }
         }
 
-            private void IsTabPressed(ConsoleKey keyPressed)
+        private void IsTabPressed(ConsoleKey keyPressed)
         {
             if (keyPressed.Equals(ConsoleKey.Tab))
             {
@@ -510,10 +545,10 @@ namespace ZombieGame
             PlayerInformation.DisplayHealthBar();
 
             ApplyFormating();
-            for (int y = playerY - offsetY ; y < playerY + offsetY; y++)
+            for (int y = playerY - offsetY; y < playerY + offsetY; y++)
             {
                 Console.BackgroundColor = ConsoleColor.Black;
-                
+
                 for (int x = playerX - offsetX; x < playerX + offsetX; x++)
                 {
 
@@ -540,33 +575,48 @@ namespace ZombieGame
 
         private void DrawCorrectLayer(int x, int y)
         {
-            //Safety check 
-            if (x < 0 || x > sizeX - 1)  //Safety check
+
+            if (!IsSafePlace(x,y))
             {
-                return;                 //Safety check
+                return;
             }
-            if (y < 0 || y > sizeY - 1) //Safety check
-            {
-                return;                 //Safety check
-            }
-            //Safety check
 
             if (!entityLayer[y, x].GetType().Name.Equals("EmptyEntity"))
             {
-                entityLayer[y, x].Display(locationLayer[y, x].GetColor());
+                entityLayer[y, x].Display(locationLayer[y, x].GetDisplayable().GetColor());
                 return;
             }
             else if (!itemLayer[y, x].GetType().Name.Equals("EmptyItem"))
             {
-                itemLayer[y, x].Display(locationLayer[y, x].GetColor());
-                return;
+                if (itemLayer[y, x].GetDisplayable().TrueOrFalse())
+                {
+
+                    itemLayer[y, x].GetDisplayable().Display(locationLayer[y, x].GetDisplayable().GetColor());
+                    return;
+
+                }
+
             }
             else
             {
-                locationLayer[y, x].Display();
+                locationLayer[y, x].GetDisplayable().Display();
                 return;
 
             }
+        }
+
+        private bool IsSafePlace(int x, int y)
+        {
+            if (x < 0 || x > sizeX - 1)  
+            {
+                return false;                 
+            }
+            if (y < 0 || y > sizeY - 1) 
+            {
+                return false;                 
+            }
+
+            return true;
         }
 
         private void DisplayExitMenu()
@@ -625,7 +675,8 @@ namespace ZombieGame
             if (input.Equals("1"))
             {
                 System.Environment.Exit(0);
-            }else if (input.Equals("2"))
+            }
+            else if (input.Equals("2"))
             {
                 return;
             }

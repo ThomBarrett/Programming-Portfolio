@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ZombieGame.Misc;
 
 namespace ZombieGame
 {
@@ -10,24 +11,7 @@ namespace ZombieGame
     {
         public Grass() {
             this.type = "Grass";
-            this.symbol = ' ';
-            this.color = ConsoleColor.Green;
-        }
-
-        public override char GetSymbol()
-        {
-            return this.symbol;
-        }
-    
-        public override ConsoleColor GetColor()
-        {
-            return this.color;
-        }
-
-        public override void Display()
-        {
-            Console.BackgroundColor = color;
-            Console.Out.Write(symbol);
+            this.displayable = new IsLocationDisplayable('░', ConsoleColor.Green, ConsoleColor.DarkGreen);
         }
 
         public override string GetType()

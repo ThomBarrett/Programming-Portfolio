@@ -8,9 +8,15 @@ namespace ZombieGame
 {
     class Zombie : Entity
     {
+        private char symbol = 'Z';
+        private ConsoleColor foregroundColor = ConsoleColor.Red;
+
         public override void Display(ConsoleColor locationColor)
         {
-            throw new NotImplementedException();
+            Console.BackgroundColor = locationColor;
+            Console.ForegroundColor = foregroundColor;
+
+            Console.Out.Write(symbol);
         }
 
         public override ConsoleColor GetColor()

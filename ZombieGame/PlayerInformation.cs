@@ -27,7 +27,7 @@ namespace ZombieGame
         {
             if (inventory.ContainsKey(id))
             {
-                inventory[id].AddAmmount((int)item.GetAmmount());
+                inventory[id].GetConsumable().AddAmmount((int)item.GetConsumable().GetAmmount());
             }
             else
             {
@@ -38,12 +38,12 @@ namespace ZombieGame
 
         public static bool RemoveItem(int id, Item item)
         {
-            if (inventory[id].GetAmmount() > item.GetAmmount())
+            if (inventory[id].GetConsumable().GetAmmount() > item.GetConsumable().GetAmmount())
             {
-                inventory[id].MinusAmmount((int)item.GetAmmount());
+                inventory[id].GetConsumable().MinusAmmount((int)item.GetConsumable().GetAmmount());
                 return true;
             }
-            else if (inventory[id].GetAmmount() == item.GetAmmount())
+            else if (inventory[id].GetConsumable().GetAmmount() == item.GetConsumable().GetAmmount())
             {
                 inventory.Remove(id);
                 return true;
@@ -157,9 +157,17 @@ namespace ZombieGame
             foreach (KeyValuePair<int, Item> kv in inventory)
             {
                 int id = kv.Key;
-                string data = kv.Value.GetType().Name + ": " + kv.Value.GetAmmount();
-
+                string data;
+                if (kv.Value.GetConsumable().TrueOrFalse())
+                {
+                    data = kv.Value.GetType().Name + ": " + kv.Value.GetConsumable().GetAmmount();
+                }
+                else
+                {
+                    data = kv.Value.GetType().Name;
+                }
                 Console.WriteLine($" │( { id } ) { data } │ ");
+
             }
             Console.Out.WriteLine();
             Console.Out.Write("Item ID > ");
@@ -196,7 +204,14 @@ namespace ZombieGame
         {
             Console.Clear();
             string itemName = inventory[id].GetType().Name;
-            Console.Out.WriteLine(" ╔══════╗");
+            Console.Out.Write(" ╔");
+
+            for (int i = 0; i < itemName.Length + 2; i++)
+            {
+                Console.Write("═");
+            }
+
+            Console.Out.WriteLine("╗");
             Console.Out.WriteLine($" ║ { itemName } ║");
             Console.Out.Write(" ╠");
 
@@ -375,15 +390,34 @@ namespace ZombieGame
                     Console.Out.WriteLine("                                      ^");
                     break;
             }
-            if(hotbar[hotbarCurrentSlot].GetType().Name != "EmptyItem")
+            if (hotbar[hotbarCurrentSlot].GetType().Name != "EmptyItem")
             {
-                Console.Out.WriteLine($"{ hotbar[hotbarCurrentSlot].GetType().Name }: { hotbar[hotbarCurrentSlot].GetAmmount() }");
+                if (hotbar[hotbarCurrentSlot].GetConsumable().TrueOrFalse())
+                {
+                    Console.Out.WriteLine($"  { hotbar[hotbarCurrentSlot].GetType().Name }: { hotbar[hotbarCurrentSlot].GetConsumable().GetAmmount() }");
+                }
+                else
+                {
+                    Console.Out.WriteLine($"  { hotbar[hotbarCurrentSlot].GetType().Name }");
+                }
             }
         }
 
         private static void PutItemInHotbar(int slot, ref Item item)
         {
             hotbar[slot] = item;
+        }
+
+        public static bool CheckCurrentSlot(string type)
+        {
+            if (hotbar[hotbarCurrentSlot].GetType().Name.Equals(type))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public static void DisplayPlayer()

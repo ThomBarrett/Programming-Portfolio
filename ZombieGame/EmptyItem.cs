@@ -8,39 +8,12 @@ namespace ZombieGame
 {
     class EmptyItem : Item
     {
-        public override void AddAmmount(int ammount)
+        public EmptyItem()
         {
-            throw new NotImplementedException();
+            this.displayable = new NotItemDisplayable();
+            this.consumable = new NotItemConsumable();
         }
 
-        public override void Display(ConsoleColor locationColor)
-        {
-            throw new NotImplementedException();
-        }
 
-        public override int? GetAmmount()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override ConsoleColor GetColor()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override char? GetSymbol()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override bool IsConsumable()
-        {
-            throw new NotImplementedException();
-        }
-
-        public override void MinusAmmount(int ammount)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

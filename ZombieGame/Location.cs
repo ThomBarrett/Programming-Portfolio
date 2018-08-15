@@ -10,13 +10,12 @@ namespace ZombieGame
     abstract class Location
     {
         protected string type;
-        protected char symbol;
-        public abstract char GetSymbol();
+        protected ILocationDisplayable displayable;
 
-        protected ConsoleColor color;
-        public abstract ConsoleColor GetColor();
-
-        public abstract void Display();
+        public ILocationDisplayable GetDisplayable()
+        {
+            return displayable;
+        }
 
         public abstract new string GetType();
     }

@@ -23,7 +23,8 @@ namespace ZombieGame
             if (item.GetType().Name != "EmptyItem")
             {
                 PlayerInformation.AddItem(productID, item);
-                Console.Out.WriteLine("AXESSS");
+                PlayerInformation.RemoveItem(0, requiredItems[0]);
+                PlayerInformation.RemoveItem(1, requiredItems[1]);
             }
         }
 
@@ -35,12 +36,12 @@ namespace ZombieGame
 
             if (wood.GetType().Name != "EmptyItem" && stone.GetType().Name != "EmptyItem")
             {
-                if (!(requiredItems[0].GetAmmount() <= wood.GetAmmount()))
+                if (!(requiredItems[0].GetConsumable().GetAmmount() <= wood.GetConsumable().GetAmmount()))
                 {
                     craftable = false;
                 }
 
-                if (!(requiredItems[1].GetAmmount() <= stone.GetAmmount()))
+                if (!(requiredItems[1].GetConsumable().GetAmmount() <= stone.GetConsumable().GetAmmount()))
                 {
                     craftable = false;
                 }

@@ -9,7 +9,7 @@ namespace ZombieGame
 {
     public static class SoundSystem
     {
-        private static SoundPlayer Menusound = new SoundPlayer(@"C:\Users\Thomas Barrett\source\repos\ZombieGame\ZombieGame\Clunk.wav");
+        private static SoundPlayer Menusound = new SoundPlayer(@"C:\Users\Thomas Barrett\source\repos\ZombieGame\ZombieGame\Sound\Clunk.wav");
         public static void PlayEnterSound()
         {
             Menusound.Play();
