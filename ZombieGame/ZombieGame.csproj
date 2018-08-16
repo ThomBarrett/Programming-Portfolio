@@ -65,14 +65,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coord.cs" />
+    <Compile Include="IItemConsumable.cs" />
     <Compile Include="Direction.cs" />
+    <Compile Include="ILocationDisplayable.cs" />
+    <Compile Include="IItemDisplayable.cs" />
     <Compile Include="EmptyEntity.cs" />
     <Compile Include="EmptyItem.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="IllegialStateException.cs" />
+    <Compile Include="IsItemConsumable.cs" />
+    <Compile Include="IsItemDisplayable.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Grass.cs" />
+    <Compile Include="IsLocationDisplayable.cs" />
+    <Compile Include="NotItemConsumable.cs" />
+    <Compile Include="NotItemDisplayable.cs" />
     <Compile Include="Plain.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerInformation.cs" />
@@ -93,9 +102,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Zombie.cs" />
+    <Compile Include="ZombieState.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\app.manifest">
       <SubType>Designer</SubType>
     </None>
@@ -108,9 +120,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Clunk.wav" />
+    <Content Include="Sound\Clunk.wav" />
     <Content Include="ReferenceData\ItemIDs.txt" />
     <Content Include="ReferenceData\RecipeIDs.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

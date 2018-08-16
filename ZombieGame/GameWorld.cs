@@ -17,7 +17,8 @@ namespace ZombieGame
         private int offsetY = 10;
 
         private int maxEnemies = 50;
-        private int currentEnemies;
+
+        private Dictionary<Coord,Zombie> zombies = new Dictionary<Coord,Zombie>();
 
         private Location[,] locationLayer;
         private Item[,] itemLayer;
@@ -33,14 +34,13 @@ namespace ZombieGame
             else
             {
                 SelectSize();
-                GenerateLocations();
-                GenerateItems();
-                GenerateEntities();
+                GenerateAll();
 
                 while (true)
                 {
                     Display(playerX, playerY);
                     Input();
+                    StartZombiesTurn();
                 }
             }
         }
@@ -148,6 +148,13 @@ namespace ZombieGame
             }
         }
 
+        private void GenerateAll()
+        {
+            GenerateLocations();
+            GenerateItems();
+            GenerateEntities();
+        }
+
         private void GenerateLocations()
         {
             Random random = new Random();
@@ -250,8 +257,11 @@ namespace ZombieGame
                 {
                     if(rand.Next(1,101) < 2)
                     {
-                        entityLayer[y, x] = new Zombie();
-
+                        Coord coord = new Coord(x, y);
+                        Zombie zombie = new Zombie(coord.x, coord.y);
+                        entityLayer[y, x] = zombie;
+                        
+                        zombies.Add(coord, zombie);
                     }
                 }
             }
@@ -287,6 +297,7 @@ namespace ZombieGame
                     break;
 
                 case ConsoleKey.Escape:
+                    SoundSystem.PlayEnterSound();
                     break;
 
                 case ConsoleKey.D0:
@@ -334,11 +345,18 @@ namespace ZombieGame
                     break;
             }
             Update(keyInfo.Key);
-
-
         }
 
         private void Update(ConsoleKey keyPressed)
+        {
+
+            IsDirectionalPressed(keyPressed);
+            IsAPressed(keyPressed);
+            IsTabPressed(keyPressed);
+            IsEscapePressed(keyPressed);
+        }
+
+        private void IsDirectionalPressed(ConsoleKey keyPressed)
         {
             Player player = (Player)entityLayer[playerY, playerX];
             if (keyPressed.Equals(ConsoleKey.UpArrow) && player.GetDirection().Equals(Direction.UP))
@@ -346,7 +364,8 @@ namespace ZombieGame
 
                 if (playerY != 0)
                 {
-                    if (entityLayer[playerY - 1, playerX].GetType().Name.Equals("EmptyEntity")){
+                    if (entityLayer[playerY - 1, playerX].GetType().Name.Equals("EmptyEntity"))
+                    {
                         entityLayer[playerY, playerX] = new EmptyEntity();
 
                         playerY--;
@@ -433,14 +452,11 @@ namespace ZombieGame
             {
                 entityLayer[playerY, playerX] = new Player(playerX, playerY, Direction.RIGHT);
             }
-
-            IsAPressed(keyPressed, player);
-            IsTabPressed(keyPressed);
-            IsEscapePressed(keyPressed);
         }
 
-        private void IsAPressed(ConsoleKey keyPressed, Player player)
+        private void IsAPressed(ConsoleKey keyPressed)
         {
+            Player player = (Player)entityLayer[playerY, playerX];
             if (keyPressed.Equals(ConsoleKey.A))
             {
                 if (player.GetDirection().Equals(Direction.UP))
@@ -481,6 +497,23 @@ namespace ZombieGame
             }
         }
 
+        private void IsTabPressed(ConsoleKey keyPressed)
+        {
+            if (keyPressed.Equals(ConsoleKey.Tab))
+            {
+                Console.Clear();
+                PlayerInformation.DisplayGameMenu();
+            }
+        }
+
+        private void IsEscapePressed(ConsoleKey keyPressed)
+        {
+            if (keyPressed.Equals(ConsoleKey.Escape))
+            {
+                DisplayExitMenu();
+            }
+        }
+
         private void CollectItem(String itemName)
         {
             int multiplier = 1;
@@ -502,20 +535,94 @@ namespace ZombieGame
             }
         }
 
-        private void IsTabPressed(ConsoleKey keyPressed)
+        private void StartZombiesTurn()
         {
-            if (keyPressed.Equals(ConsoleKey.Tab))
+            for(int i = 0; i < zombies.Count; i++)
             {
-                Console.Clear();
-                PlayerInformation.DisplayGameMenu();
+                KeyValuePair<Coord,Zombie> kv = zombies.ElementAt(i);
+                ZombieTurn(kv.Key);
             }
         }
 
-        private void IsEscapePressed(ConsoleKey keyPressed)
+        private void ZombieTurn(Coord coord)
         {
-            if (keyPressed.Equals(ConsoleKey.Escape))
+            if(entityLayer[coord.y, coord.x].GetType().Name == "EmptyEntity")
             {
-                DisplayExitMenu();
+                return;
+            }
+
+            Zombie current = (Zombie)entityLayer[coord.y, coord.x];
+
+            switch (current.GetState())
+            {
+                case ZombieState.ALERT:
+                    AlertTurn(coord);
+                    break;
+                case ZombieState.HUNTING:
+                    break;
+                case ZombieState.STUNNED:
+                    break;
+            }
+        }
+
+        private void AlertTurn(Coord oldCoord)
+        {
+            Random rand = new Random();
+
+            int gen = rand.Next(0, 5);
+            Coord newCoord = oldCoord;
+            switch (gen)
+            {
+                case 0:
+                    //DO NOTHING
+                    break;
+                case 1:
+                    //UP
+                    if(oldCoord.y != 0)
+                    {
+                        newCoord = new Coord(oldCoord.x, oldCoord.y-1);
+                    }
+                    break;
+                case 2:
+                    //RIGHT
+                    if (oldCoord.x != sizeX-1)
+                    {
+                        newCoord = new Coord(oldCoord.x + 1, oldCoord.y);
+                    }
+                    break;
+                case 3:
+                    //DOWN
+                    if (oldCoord.y != sizeY-1)
+                    {
+                        newCoord = new Coord(oldCoord.x, oldCoord.y + 1);
+                    }
+                    break;
+                case 4:
+                    if (oldCoord.x != 0)
+                    {
+                        newCoord = new Coord(oldCoord.x - 1, oldCoord.y);
+                    }
+                    //LEFT
+                    break;
+            }
+
+            if(gen != 0)
+            {
+                ZombieMove(oldCoord, newCoord);
+            }
+        }
+
+        private void ZombieMove(Coord oldCoord, Coord newCoord)
+        {
+            Zombie currentZombie = (Zombie)entityLayer[oldCoord.y, oldCoord.x];
+            if (entityLayer[newCoord.y, newCoord.x].GetType().Name == "EmptyEntity")
+            {
+                int HP = currentZombie.GetHP();
+                ZombieState state = currentZombie.GetState();
+                entityLayer[oldCoord.y, oldCoord.x] = new EmptyEntity();
+                zombies.Remove(oldCoord);
+                entityLayer[newCoord.y, newCoord.x] = new Zombie(newCoord.x, newCoord.y, HP, state);
+                zombies.Add(newCoord, new Zombie(newCoord.x, newCoord.y));
             }
         }
 
