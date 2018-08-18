@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ZombieGame
 {
+    /// <summary>
+    /// Used to handle directional state of other objects.
+    /// </summary>
     public enum Direction
     {
         UP, DOWN, LEFT, RIGHT

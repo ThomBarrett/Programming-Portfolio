@@ -9,10 +9,9 @@ namespace ZombieGame
     class Player : Entity
     {
         private Direction direction;
-        public Player(int x, int y, Direction direction)
+        public Player(uint x, uint y, Direction direction)
         {
-            this.x = x;
-            this.y = y;
+            this.position = new Coord(x, y);
             SetDirection(direction);
             this.color = ConsoleColor.Black;
         }

@@ -10,7 +10,6 @@ namespace ZombieGame
     {
         private char symbol = 'Z';
         private ConsoleColor foregroundColor = ConsoleColor.Red;
-        private uint x, y;
 
         private int MaxHP = 5;
         private int HP;
@@ -19,16 +18,14 @@ namespace ZombieGame
 
         public Zombie(uint x, uint y)
         {
-            this.x = x;
-            this.y = y;
+            this.position = new Coord(x, y);
             this.HP = MaxHP;
             this.state = ZombieState.ALERT;
         }
 
         public Zombie(uint x, uint y, int HP, ZombieState state)
         {
-            this.x = x;
-            this.y = y;
+            this.position = new Coord(x, y);
             this.HP = HP;
             this.state = state;
         }

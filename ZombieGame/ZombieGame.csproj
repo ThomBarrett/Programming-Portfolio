@@ -120,6 +120,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Sound\Bite.wav" />
     <Content Include="Sound\Clunk.wav" />
     <Content Include="ReferenceData\ItemIDs.txt" />
     <Content Include="ReferenceData\RecipeIDs.txt" />

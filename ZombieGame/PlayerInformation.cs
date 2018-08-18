@@ -469,6 +469,18 @@ namespace ZombieGame
             Console.Out.WriteLine($"] { HP } / { MaxHP }");
         }
 
+        public static void HealthMinus(int num)
+        {
+            if(HP - num < 0)
+            {
+                HP = 0;
+            }
+            else
+            {
+                HP -= num;
+            }
+        }
+
         public static void DisplayXPBar()
         {
             float percentXP = XP / XPRequired * 100;
