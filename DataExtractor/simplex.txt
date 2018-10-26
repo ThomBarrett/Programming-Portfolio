@@ -1,0 +1,4594 @@
+Entre Ríos : AR
+Paysandú : UY
+Sind : PK
+Gujarat : IN
+Kalimantan Timur : ID
+Sabah : MY
+Arica y Parinacota : CL
+La Paz : BO
+Oruro : BO
+Tarapacá : CL
+Potosí : BO
+Antofagasta : CL
+Tacna : PE
+Salta : AR
+Jujuy : AR
+Dhekelia : -1
+Jammu and Kashmir : IN
+Xinjiang : CN
+Xizang : CN
+HaDarom : IL
+Gaza Strip : PS
+HaZafon : IL
+West Bank : PS
+Haifa : IL
+HaMerkaz : IL
+Jerusalem : IL
+An Nabatiyah : LB
+South Lebanon : LB
+Southern Nations, Nationalities and Peoples : ET
+Eastern Equatoria : SS
+Somali : ET
+Nugaal : SO
+Mudug : SO
+Galguduud : SO
+Hiiraan : SO
+Bakool : SO
+Gedo : SO
+Rift Valley : KE
+Northern Areas : PK
+Azad Kashmir : PK
+Punjab : PK
+Chitipa : MW
+Mbeya : TZ
+Njombe : TZ
+Ruvuma : TZ
+Rumphi : MW
+Nkhata Bay : MW
+Arunachal Pradesh : IN
+UNDOF : SY
+Somaliland : -1
+Bari : SO
+Guyane française : FR
+Sipaliwini : SR
+Mahaica-Berbice : GY
+Gangwon : KR
+Kangwŏn-do : KP
+Gyeonggi : KR
+Hwanghae-bukto : KP
+Guelmim - Es-Semara : MA
+Western Sahara : EH
+Laâyoune - Boujdour - Sakia El Hamra : MA
+Oued el Dahab : MA
+Alajuela : CR
+Rio San Juan : NI
+Limón : CR
+Heredia : CR
+Likouala : CG
+Équateur : CD
+Cuvette : CG
+Plateaux : CG
+Bandundu : CD
+Pool : CG
+Brazzaville : CG
+Kinshasa City : CD
+Bas-Congo : CD
+Bouenza : CG
+Niari : CG
+Tashi Yangtse : BT
+Lhuntshi : BT
+Bumthang : BT
+Chernihiv : UA
+Gomel : BY
+Volyn : UA
+Brest : BY
+Rivne : UA
+Zhytomyr : UA
+Kiev : UA
+Karas : NA
+Northern Cape : ZA
+Beqaa : LB
+North Lebanon : LB
+Homs (Hims) : SY
+Tartus : SY
+Rif Dimashq : SY
+St. Martin : MF
+Sint Maarten : SX
+Fujayrah : AE
+Musandam : OM
+Sharjah : AE
+Ras Al Khaymah : AE
+Likoma : MW
+Ferghana : UZ
+East Kazakhstan : KZ
+Almaty : KZ
+Leninabad : TJ
+Vitebsk : BY
+Utenos : LT
+Vilniaus : LT
+Grodno : BY
+Alytaus : LT
+Rio Grande do Sul : BR
+Artigas : UY
+Salto : UY
+Rivera : UY
+Cerro Largo : UY
+Rocha : UY
+Treinta y Tres : UY
+Dornod : MN
+Inner Mongol : CN
+Bayan-Ölgiy : MN
+Hovd : MN
+Sühbaatar : MN
+Dornogovi : MN
+Govi-Altay : MN
+Gansu : CN
+Bayanhongor : MN
+Ömnögovi : MN
+Gorno-Altay : RU
+Ústecký : CZ
+Sachsen : DE
+Liberecký : CZ
+Karlovarský : CZ
+Bayern : DE
+Plzeňský : CZ
+Jihočeský : CZ
+Viljandi : EE
+Rujienas : LV
+Mazsalacas : LV
+Pärnu : EE
+Alojas : LV
+Valga : EE
+Nauksenu : LV
+Salacgrivas : LV
+Võru : EE
+Apes : LV
+Valkas : LV
+Aluksne : LV
+Pskov : RU
+Vilakas : LV
+Baltinavas : LV
+Karsavas : LV
+Ciblas : LV
+Ludzas : LV
+Zilupes : LV
+Panevezio : LT
+Neretas : LV
+Viesites : LV
+Vecumnieku : LV
+Telšiai : LT
+Saldus : LV
+Klaipedos : LT
+Rucavas : LV
+Priekules : LV
+Vainodes : LV
+Šiauliai : LT
+Auces : LV
+Bauska : LV
+Tervetes : LV
+Jelgava : LV
+Rundales : LV
+Aknistes : LV
+Ilukstes : LV
+Daugavpils : LV
+Troms : NO
+Norrbotten : SE
+Nordland : NO
+Västerbotten : SE
+Jämtland : SE
+Nord-Trøndelag : NO
+Sør-Trøndelag : NO
+Hedmark : NO
+Dalarna : SE
+Värmland : SE
+Akershus : NO
+Østfold : NO
+Västra Götaland : SE
+Lapland : FI
+Finnmark : NO
+Kon Tum : VN
+Rôtânôkiri : KH
+Đắk Nông : VN
+Môndól Kiri : KH
+Đắk Lắk : VN
+Gia Lai : VN
+Bình Phước : VN
+Krâchéh : KH
+Tây Ninh : VN
+Kâmpóng Cham : KH
+Svay Rieng : KH
+Prey Vêng : KH
+Long An : VN
+Ðong Tháp : VN
+An Giang : VN
+Kândal : KH
+Takêv : KH
+Kiên Giang : VN
+Kâmpôt : KH
+Rheinland-Pfalz : DE
+Diekirch : LU
+Grevenmacher : LU
+Saarland : DE
+Nord : FR
+West Flanders : BE
+Hainaut : BE
+Ardennes : FR
+Namur : BE
+Aisne : FR
+Luxembourg : BE
+Meuse : FR
+Meurthe-et-Moselle : FR
+Liege : BE
+Luxembourg : LU
+Krasnodar : RU
+Abkhazia : GE
+Karachay-Cherkess : RU
+Kabardin-Balkar : RU
+Samegrelo-Zemo Svaneti : GE
+North Ossetia : RU
+Shida Kartli : GE
+Racha-Lechkhumi-Kvemo Svaneti : GE
+Ingush : RU
+Mtskheta-Mtianeti : GE
+Chechnya : RU
+Kakheti : GE
+Dagestan : RU
+Struga : MK
+Dibër : AL
+Centar župa : MK
+Debar : MK
+Mavrovo and Rostusa : MK
+Gostivar : MK
+Kukës : AL
+Korçë : AL
+Elbasan : AL
+Vevčani : MK
+Ohrid : MK
+Debarca : MK
+Resen : MK
+Qazax : AZ
+Dečani : XK
+Đakovica : XK
+Dragaš : XK
+Prizren : XK
+Ardahan : TR
+Samtskhe-Javakheti : GE
+Artvin : TR
+Ajaria : GE
+Moselle : FR
+Ceuta : ES
+Tanger - Tétouan : MA
+Phôngsali : LA
+Yunnan : CN
+Oudômxai : LA
+Louang Namtha : LA
+Ysyk-Köl : KG
+Naryn : KG
+Osh : KG
+Tavush : AM
+Kvemo Kartli : GE
+Lori : AM
+Shirak : AM
+Zhambyl : KZ
+Chuy : KG
+Talas : KG
+South Kazakhstan : KZ
+Pomeroon-Supenaam : GY
+Roraima : BR
+Potaro-Siparuni : GY
+Upper Demerara-Berbice : GY
+Pará : BR
+Schleswig-Holstein : DE
+Syddanmark : DK
+Madre de Dios : PE
+Acre : BR
+Ghadamis : LY
+Tataouine : TN
+Médenine : TN
+An Nuqat al Khams : LY
+Ağstafa : AZ
+Tovuz : AZ
+Gədəbəy : AZ
+Gegharkunik : AM
+Daşkəsən : AZ
+Kəlbəcər : AZ
+Vayots Dzor : AM
+Syunik : AM
+Lankaran : AZ
+Qubadli : AZ
+Zəngilan : AZ
+Şərur : AZ
+Ararat : AM
+Sədərək : AZ
+Kangarli : AZ
+Babək : AZ
+Şahbuz : AZ
+Culfa : AZ
+Ordubad : AZ
+Satu Mare : RO
+Szabolcs-Szatmár-Bereg : HU
+Arad : RO
+Békés : HU
+Bihor : RO
+Hajdú-Bihar : HU
+Csongrád : HU
+Timis : RO
+Jalal-Abad : KG
+Tashkent : UZ
+Namangan : UZ
+Andijon : UZ
+Batken : KG
+Žilinský : SK
+Silesian : PL
+Lesser Poland : PL
+Prešov : SK
+Subcarpathian : PL
+Donegal : IE
+Derry : GB
+Strabane : GB
+Fermanagh : GB
+Leitrim : IE
+Cavan : IE
+Monaghan : IE
+Dungannon : GB
+Armagh : GB
+Newry and Mourne : GB
+Louth : IE
+Lower Silesian : PL
+Královéhradecký : CZ
+Opole : PL
+Olomoucký : CZ
+Pardubický : CZ
+Moravskoslezský : CZ
+Tadzhikistan Territories : TJ
+Gorno-Badakhshan : TJ
+Dytiki Makedonia : GR
+Ipeiros : GR
+Gjirokastër : AL
+Vlorë : AL
+Chitipa : MW
+Muchinga : ZM
+Mzimba : MW
+Eastern : ZM
+Kasungu : MW
+Mchinji : MW
+Transcarpathia : UA
+Košický : SK
+Northern : SL
+Faranah : GN
+Kindia : GN
+Mamou : GN
+Dabola : GN
+Forécariah : GN
+Guéckédou : GN
+Eastern : SL
+Grand Cape Mount : LR
+Southern : SL
+Gbapolu : LR
+Lofa : LR
+Vakaga : CF
+Central Darfur : SD
+Southern Darfur : SD
+Haute-Kotto : CF
+Western Bahr el Ghazal : SS
+Haut-Mbomou : CF
+Western Equatoria : SS
+Orientale : CD
+Central Equatoria : SS
+Ali Sabieh : DJ
+Arta : DJ
+Dikhil : DJ
+Afar : ET
+Tadjourah : DJ
+Sud-Kivu : CD
+Kigoma : TZ
+Katanga : CD
+Katavi : TZ
+Rukwa : TZ
+Obock : DJ
+Debubawi Keyih Bahri : ER
+Niederösterreich : AT
+Jihomoravský : CZ
+Oberösterreich : AT
+Dihok : IQ
+Sirnak : TR
+Hakkari : TR
+Arbil : IQ
+Gyor-Moson-Sopron : HU
+Burgenland : AT
+Sopron : HU
+Vas : HU
+Aoste : IT
+Valais : CH
+Verbano-Cusio-Ossola : IT
+Ticino : CH
+Varese : IT
+Como : IT
+Graubünden : CH
+Sondrio : IT
+Bozen : IT
+Vorarlberg : AT
+Tirol : AT
+West Azarbaijan : IR
+Iğdir : TR
+Agri : TR
+Van : TR
+Marijampoles : LT
+Podlachian : PL
+Warmian-Masurian : PL
+Northern : ZM
+Groningen : NL
+Niedersachsen : DE
+Drenthe : NL
+Overijssel : NL
+Nordrhein-Westfalen : DE
+Gelderland : NL
+Limburg : NL
+Triesen : LI
+Schaan : LI
+Triesenberg : LI
+Balzers : LI
+Planken : LI
+Eschen : LI
+Mauren : LI
+Schellenberg : LI
+Ruggell : LI
+Denguélé : CI
+Kankan : GN
+Mandiana : GN
+Beyla : GN
+Bafing : CI
+Dix-Huit Montagnes : CI
+Lola : GN
+Imperia : IT
+Alpes-Maritimes : FR
+Cuneo : IT
+Alpes-de-Haute-Provence : FR
+Hautes-Alpes : FR
+Turin : IT
+Savoie : FR
+Haute-Savoie : FR
+Murmansk : RU
+Karelia : RU
+Northern Ostrobothnia : FI
+Kainuu : FI
+North Karelia : FI
+South Karelia : FI
+Leningrad : RU
+Kymenlaakso : FI
+Al Batnah North : OM
+Dubay : AE
+Neutral Zone : AE
+Al Buraymi : OM
+Neutral Zone : AE
+Abu Dhabi : AE
+Al Dhahira : OM
+Balakən : AZ
+Zaqatala : AZ
+Xaçmaz : AZ
+Qusar : AZ
+Oğuz : AZ
+Şəki : AZ
+Qax : AZ
+Qəbələ : AZ
+Amapá : BR
+Samux : AZ
+Severno-Backi : RS
+Bács-Kiskun : HU
+Zapadno-Backi : RS
+Severno-Banatski : RS
+Szeged : HU
+Kayes : ML
+Kédougou : SN
+Tambacounda : SN
+Koundara : GN
+Kolda : SN
+Mali : GN
+Kebbi : NG
+Alibori : BJ
+Niger : NG
+Borgou : BJ
+Kwara : NG
+Ogun : NG
+Plateau : BJ
+Collines : BJ
+Oyo : NG
+Lagos : NG
+Ouémé : BJ
+Cabinda : AO
+Kouilou : CG
+Zala : HU
+Medimurska : HR
+Somogy : HU
+Viroviticko-Podravska : HR
+Koprivničko-Križevačka : HR
+Baranya : HU
+Osjecko-Baranjska : HR
+Lendava : SI
+Črenšovci : SI
+Ljutomer : SI
+Razkrižje : SI
+Ormož : SI
+Varaždinska : HR
+Zavrc : SI
+Gorišnica : SI
+Videm : SI
+Podlehnik : SI
+Žetale : SI
+Krapinsko-Zagorska : HR
+Rogatec : SI
+Rogaška Slatina : SI
+Bistrica ob Sotli : SI
+Podcetrtek : SI
+Brežice : SI
+Zagrebacka : HR
+Krško : SI
+Šentjernej : SI
+Novo Mesto : SI
+Metlika : SI
+Karlovacka : HR
+Kostel : SI
+Primorsko-Goranska : HR
+Loški Potok : SI
+Loška dolina : SI
+Ilirska Bistrica : SI
+Crnomelj : SI
+Kocevje : SI
+Istarska : HR
+Hrpelje-Kozina : SI
+Koper : SI
+Piran : SI
+Moravske Toplice : SI
+Šalovci : SI
+Hodoš : SI
+Gornji Petrovci : SI
+Kuzma : SI
+Dobrovnik : SI
+Kobilje : SI
+Ar Rayyān : QA
+Ash Sharqiyah : SA
+North-West : BW
+Matabeleland North : ZW
+Central : BW
+Matabeleland South : ZW
+North-East : BW
+Burgas : BG
+Kirklareli : TR
+Yambol : BG
+Edirne : TR
+Haskovo : BG
+Otdar Mean Chey : KH
+Surin : TH
+Preah Vihéar : KH
+Si Sa Ket : TH
+Ubon Ratchathani : TH
+Siemréab : KH
+Bântéay Méanchey : KH
+Sa Kaeo : TH
+Buri Ram : TH
+Kaôh Kong : KH
+Trat : TH
+Pouthisat : KH
+Batdâmbâng : KH
+Krong Pailin : KH
+Chanthaburi : TH
+Melilla : ES
+Oriental : MA
+Tashigang : BT
+Assam : IN
+Samdrup Jongkhar : BT
+Sikkim : IN
+Ha : BT
+Samchi : BT
+West Bengal : IN
+Geylegphug : BT
+Chhukha : BT
+Shemgang : BT
+Perlis : MY
+Satun : TH
+Songkhla : TH
+Kedah : MY
+Yala : TH
+Kelantan : MY
+Narathiwat : TH
+Perak : MY
+Serravalle : SM
+Rimini : IT
+Domagnano : SM
+Faetano : SM
+Pesaro e Urbino : IT
+Montegiardino : SM
+Fiorentino : SM
+Chiesanuova : SM
+San Marino : SM
+Acquaviva : SM
+Borgo Maggiore : SM
+Nord-Est : HT
+Monte Cristi : DO
+Dajabón : DO
+Centre : HT
+La Estrelleta : DO
+Independencia : DO
+Ouest : HT
+Sud-Est : HT
+Pedernales : DO
+Lac : TD
+Borno : NG
+Al Jahrah : KW
+Al-Basrah : IQ
+Al-Muthannia : IQ
+Ahuachapán : SV
+Jutiapa : GT
+Santa Ana : SV
+Chiquimula : GT
+Nusa Tenggara Timur : ID
+Ambeno : TL
+Bobonaro : TL
+Cova Lima : TL
+Sarawak : MY
+Temburong : BN
+Kalimantan Barat : ID
+Salzburg : AT
+Belluno : IT
+Kärnten : AT
+Udine : IT
+Monaco : MC
+Timbuktu : ML
+Adrar : DZ
+Kranjska Gora : SI
+Bovec : SI
+Kobarid : SI
+Tolmin : SI
+Kanal : SI
+Brda : SI
+Gorizia : IT
+Nova Goriška : SI
+Šempeter-Vrtojba : SI
+Miren-Kostanjevica : SI
+Komen : SI
+Trieste : IT
+Sežana : SI
+Maputo : MZ
+Lubombo : SZ
+Muyinga : BI
+Eastern : RW
+Kirundo : BI
+Southern : RW
+Ngozi : BI
+Cibitoke : BI
+Western : RW
+Kayanza : BI
+Rakhine : MM
+Chittagong : BD
+Chin : MM
+Pyrénées-Atlantiques : FR
+Navarra : ES
+Gipuzkoa : ES
+Huesca : ES
+Haute-Garonne : FR
+Lérida : ES
+Hautes-Pyrénées : FR
+Ariège : FR
+Ordino : AD
+Canillo : AD
+Pyrénées-Orientales : FR
+Encamp : AD
+La Massana : AD
+Gerona : ES
+Sant Julià de Lòria : AD
+Escaldes-Engordany : AD
+Badakhshan : AF
+Kentriki Makedonia : GR
+Novo Selo : MK
+Dojran : MK
+Valandovo : MK
+Strumitsa : MK
+Bogdanci : MK
+Gevgelija : MK
+Kavadartsi : MK
+Novaci : MK
+Prilep : MK
+Bitola : MK
+Gnjilane : XK
+Lipkovo : MK
+Vitina : XK
+Čučer Sandevo : MK
+Kačanik : XK
+Gjorče Petrov : MK
+Saraj : MK
+Jegunovce : MK
+Štrpce : XK
+Tearce : MK
+Tetovo : MK
+Bogovinje : MK
+Vrapcište : MK
+Pcinjski : RS
+Kriva Palanka : MK
+Rankovce : MK
+Staro Nagoričane : MK
+Kumanovo : MK
+Vidin : BG
+Borski : RS
+Zajecarski : RS
+Pirotski : RS
+Pernik : BG
+Sofia : BG
+Montana : BG
+Jablanicki : RS
+Kyustendil : BG
+Delčevo : MK
+Makedonska Kamenica : MK
+Blagoevgrad : BG
+Berovo : MK
+Pehčevo : MK
+Dubrovacko-Neretvanska : HR
+Herceg Novi : ME
+Herzegovina-Neretva : BA
+Trebinje : BA
+Ntungamo : UG
+Isingiro : UG
+Northern : RW
+Kabale : UG
+Kisoro : UG
+Guantanamo Bay USNB : -1
+Guantánamo : CU
+Uttaranchal : IN
+Leposavić : XK
+Raški : RS
+Pomoravski : RS
+Toplicki : RS
+Podujevo : XK
+Zubin Potok : XK
+Zvečan : XK
+Istok : XK
+Priština : XK
+Kosovska Kamenica : XK
+Rožaje : ME
+Peć : XK
+Berane : ME
+Plav : ME
+Pljevlja : ME
+Zlatiborski : RS
+Bijelo Polje : ME
+Ocotepeque : HN
+Chalatenango : SV
+Lempira : HN
+Cabañas : SV
+Intibucá : HN
+Morazán : SV
+La Paz : HN
+San Miguel : SV
+La Unión : SV
+Valle : HN
+Atlántico Norte : NI
+Olancho : HN
+Gracias a Dios : HN
+Jinotega : NI
+El Paraíso : HN
+Nueva Segovia : NI
+Chinandega : NI
+Choluteca : HN
+Madriz : NI
+Esmeraldas : EC
+Nariño : CO
+Carchi : EC
+Sucumbios : EC
+Putumayo : CO
+Nickerie : SR
+Marowijne : SR
+Tarija : BO
+Boquerón : PY
+Formosa : AR
+Presidente Hayes : PY
+Central : PY
+Asunción : PY
+Alto Paraná : PY
+Misiones : AR
+Itapúa : PY
+Ñeembucú : PY
+Chaco : AR
+Corrientes : AR
+Misiones : PY
+Santa Cruz : BO
+Mato Grosso do Sul : BR
+Alto Paraguay : PY
+Concepción : PY
+Amambay : PY
+Canindeyú : PY
+Paraná : BR
+Santa Catarina : BR
+Zeeland : NL
+East Flanders : BE
+Noord-Brabant : NL
+Antwerp : BE
+Limburg : BE
+Baden-Württemberg : DE
+Schaffhausen : CH
+Thurgau : CH
+Zürich : CH
+Aargau : CH
+Basel-Stadt : CH
+Basel-Landschaft : CH
+Bas-Rhin : FR
+Haute-Rhin : FR
+Sankt Gallen : CH
+Vaduz : LI
+Gamprin : LI
+Solothurn : CH
+Jura : CH
+Territoire de Belfort : FR
+Doubs : FR
+Genève : CH
+Ain : FR
+Vaud : CH
+Jura : FR
+Neuchâtel : CH
+Orense : ES
+Viana do Castelo : PT
+Pontevedra : ES
+Braga : PT
+Bragança : PT
+Vila Real : PT
+Zamora : ES
+Salamanca : ES
+Cáceres : ES
+Guarda : PT
+Castelo Branco : PT
+Badajoz : ES
+Portalegre : PT
+Évora : PT
+Rogašovci : SI
+Steiermark : AT
+Cankova : SI
+Gornja Radgona : SI
+Apace : SI
+Šentilj : SI
+Kungota : SI
+Maribor : SI
+Selnica ob Dravi : SI
+Radlje ob Dravi : SI
+Muta : SI
+Dravograd : SI
+Podvelka : SI
+Ravne na Koroškem : SI
+Prevalje : SI
+Mežica : SI
+Črna na Koroškem : SI
+Tržič : SI
+Žirovnica : SI
+Jesenice : SI
+Solcava : SI
+Jezersko : SI
+Foča : BA
+Žabljak : ME
+Plužine : ME
+Nikšic : ME
+Kotor : ME
+Sisacko-Moslavacka : HR
+Banja Luka : BA
+Brodsko-Posavska : HR
+Una-Sana : BA
+Zadarska : HR
+Doboj : BA
+Posavina : BA
+Vukovarsko-Srijemska : HR
+Brčko Distrikt : BA
+Bijeljina : BA
+West Bosnia : BA
+Splitsko-Dalmatinska : HR
+West Herzegovina : BA
+Sremski : RS
+Macvanski : RS
+Vlasenica : BA
+Južno-Backi : RS
+Bratislavský : SK
+Trnavský : SK
+Trenciansky : SK
+Zlínský : CZ
+Borsod-Abaúj-Zemplén : HU
+Banskobystrický : SK
+Nógrád : HU
+Salgótarján : HU
+Nitriansky : SK
+Komárom-Esztergom : HU
+Pest : HU
+Lubusz : PL
+Brandenburg : DE
+West Pomeranian : PL
+Mecklenburg-Vorpommern : DE
+Mehedinti : RO
+Dolj : RO
+Silistra : BG
+Calarasi : RO
+Ruse : BG
+Teleorman : RO
+Giurgiu : RO
+Constanta : RO
+Dobrich : BG
+Vratsa : BG
+Olt : RO
+Pleven : BG
+Veliko Tarnovo : BG
+Srednje-Banatski : RS
+Južno-Banatski : RS
+Caras-Severin : RO
+Branicevski : RS
+Anatoliki Makedonia kai Thraki : GR
+Kardzhali : BG
+Smolyan : BG
+Shkodër : AL
+Andrijevica : ME
+Podgorica : ME
+Bar : ME
+Ulcinj : ME
+Botosani : RO
+Briceni : MD
+Edineţ : MD
+Rîşcani : MD
+Glodeni : MD
+Făleşti : MD
+Iasi : RO
+Ungheni : MD
+Nisporeni : MD
+Hîncesti : MD
+Vaslui : RO
+Leova : MD
+Cantemir : MD
+Cahul : MD
+Galati : RO
+Chernivtsi : UA
+Suceava : RO
+Maramures : RO
+Ivano-Frankivs'k : UA
+Odessa : UA
+Tulcea : RO
+Ocniţa : MD
+Vinnytsya : UA
+Donduseni : MD
+Soroca : MD
+Camenca : MD
+Rezina : MD
+Stîngă Nistrului : MD
+Grigoriopol : MD
+Bender : MD
+Ștefan Vodă : MD
+Causeni : MD
+Cimişlia : MD
+Basarabeasca : MD
+Taraclia : MD
+Comrat : MD
+Lublin : PL
+L'viv : UA
+Dagdas : LV
+Kraslavas : LV
+Kaliningrad : RU
+Taurages : LT
+Smolensk : RU
+Mogilev : BY
+Bryansk : RU
+Sumy : UA
+Kursk : RU
+Belgorod : RU
+Kharkiv : UA
+Luhans'k : UA
+Voronezh : RU
+Rostov : RU
+Donets'k : UA
+East Azarbaijan : IR
+Kars : TR
+Aragatsotn : AM
+Armavir : AM
+Ardebil : IR
+İmişli : AZ
+Biləsuvar : AZ
+Cəlilabad : AZ
+Yardımlı : AZ
+Lerik : AZ
+Cəbrayıl : AZ
+Füzuli : AZ
+Beyləqan : AZ
+Astara : AZ
+Gilan : IR
+Buryat : RU
+Hövsgöl : MN
+Tuva : RU
+Bulgan : MN
+Uvs : MN
+Selenge : MN
+Chita : RU
+Dzavhan : MN
+Hentiy : MN
+Heilongjiang : CN
+Amur : RU
+Yevrey : RU
+Khabarovsk : RU
+Primor'ye : RU
+Jilin : CN
+Hamgyŏng-bukto : KP
+Rasŏn : KP
+Ryanggang : KP
+Chagang-do : KP
+Liaoning : CN
+P'yŏngan-bukto : KP
+Sirdaryo : UZ
+Jizzakh : UZ
+Samarkand : UZ
+Kashkadarya : UZ
+Surkhandarya : UZ
+Khatlon : TJ
+Takhar : AF
+Kunduz : AF
+Balkh : AF
+Chardzhou : TM
+Jawzjan : AF
+Faryab : AF
+Mary : TM
+Badghis : AF
+Hirat : AF
+Ahal : TM
+Hasaka (Al Haksa) : SY
+Mardin : TR
+Ar Raqqah : SY
+Sanliurfa : TR
+Aleppo : SY
+Kilis : TR
+Gaziantep : TR
+Hatay : TR
+Idlib : SY
+Lattakia : SY
+As-Sulaymaniyah : IQ
+Kordestan : IR
+Kermanshah : IR
+Diyala : IQ
+Ilam : IR
+Wasit : IQ
+Maysan : IQ
+Khuzestan : IR
+Irbid : JO
+Madaba : JO
+Karak : JO
+Tafilah : JO
+Aqaba : JO
+Balqa : JO
+Karnali : NP
+Mahakali : NP
+Seti : NP
+Dhawalagiri : NP
+Gandaki : NP
+Bagmati : NP
+Janakpur : NP
+Sagarmatha : NP
+Bhojpur : NP
+Mechi : NP
+Uttar Pradesh : IN
+Bheri : NP
+Rapti : NP
+Bihar : IN
+Lumbini : NP
+Narayani : NP
+Kachin : MM
+Sagaing : MM
+Nagaland : IN
+Manipur : IN
+Mizoram : IN
+Chiang Rai : TH
+Shan : MM
+Chiang Mai : TH
+Mae Hong Son : TH
+Kayah : MM
+Kayin : MM
+Tak : TH
+Kanchanaburi : TH
+Mon : MM
+Tanintharyi : MM
+Prachuap Khiri Khan : TH
+Phetchaburi : TH
+Ratchaburi : TH
+Chumphon : TH
+Ranong : TH
+Bokeo : LA
+Xaignabouri : LA
+Phayao : TH
+Nan : TH
+Uttaradit : TH
+Phitsanulok : TH
+Loei : TH
+Bueng Kan : TH
+Bolikhamxai : LA
+Nong Khai : TH
+Nakhon Phanom : TH
+Khammouan : LA
+Savannakhét : LA
+Mukdahan : TH
+Amnat Charoen : TH
+Saravan : LA
+Vientiane [prefecture] : LA
+Vientiane : LA
+Champasak : LA
+Điện Biên : VN
+Louangphrabang : LA
+Houaphan : LA
+Son La : VN
+Thanh Hóa : VN
+Nghệ An : VN
+Xiangkhoang : LA
+Ha Tinh : VN
+Quảng Bình : VN
+Quảng Trị : VN
+Thừa Thiên - Huế : VN
+Xékong : LA
+Quàng Nam : VN
+Attapu : LA
+KwaZulu-Natal : ZA
+Mokhotlong : LS
+Free State : ZA
+Butha-Buthe : LS
+Leribe : LS
+Eastern Cape : ZA
+Qacha's Nek : LS
+Thaba-Tseka : LS
+Berea : LS
+Maseru : LS
+Mafeteng : LS
+Mohale's Hoek : LS
+Quthing : LS
+Limpopo : ZA
+Kgatleng : BW
+North West : ZA
+South-East : BW
+Southern : BW
+Kgalagadi : BW
+Masvingo : ZW
+Lusaka : ZM
+Mashonaland West : ZW
+Mashonaland Central : ZW
+Southern : ZM
+Kémo : CF
+Ouaka : CF
+Basse-Kotto : CF
+Mbomou : CF
+Ombella-M'Poko : CF
+Bangui : CF
+Lobaye : CF
+Kagera : TZ
+Cankuzo : BI
+Ruyigi : BI
+Rutana : BI
+Makamba : BI
+Bubanza : BI
+Bujumbura Rural : BI
+Bujumbura Mairie : BI
+Bururi : BI
+Nord-Kivu : CD
+Amhara : ET
+Gedarif : SD
+Tigray : ET
+Benshangul-Gumaz : ET
+Blue Nile : SD
+Sennar : SD
+Gambela Peoples : ET
+Upper Nile : SS
+Oromiya : ET
+Jonglei : SS
+Sila : TD
+Salamat : TD
+Bamingui-Bangoran : CF
+Moyen-Chari : TD
+Ouham : CF
+Mandoul : TD
+Logone Oriental : TD
+Ouham-Pendé : CF
+Sud : CM
+Wouleu-Ntem : GA
+Sangha : CG
+Ogooué-Ivindo : GA
+Cuvette-Ouest : CG
+Haut-Ogooué : GA
+Ogooué-Lolo : GA
+Ngounié : GA
+Lékoumou : CG
+Nyanga : GA
+Hadjer-Lamis : TD
+Extrême-Nord : CM
+Chari-Baguirmi : TD
+Ville de N'Djamena : TD
+Mayo-Kebbi Est : TD
+Mayo-Kebbi Ouest : TD
+Nord : CM
+Adamawa : NG
+Adamaoua : CM
+Taraba : NG
+Nord-Ouest : CM
+Sud-Ouest : CM
+Benue : NG
+Cross River : NG
+Sokoto : NG
+Tahoua : NE
+Dosso : NE
+Diffa : NE
+Maradi : NE
+Zamfara : NG
+Yobe : NG
+Zinder : NE
+Katsina : NG
+Jigawa : NG
+Tillabéri : NE
+Tapoa : BF
+Atakora : BJ
+Kompienga : BF
+Savanes : TG
+Upper East : GH
+Northern : GH
+Kara : TG
+Centre : TG
+Plateaux : TG
+Volta : GH
+Maritime : TG
+Zanzan : CI
+Brong Ahafo : GH
+Comoe : CI
+Western : GH
+Sud-Comoé : CI
+Léraba : BF
+Savanes : CI
+Komoé : BF
+Poni : BF
+Noumbiel : BF
+Oudalan : BF
+Gao : ML
+Soum : BF
+Mopti : ML
+Loroum : BF
+Yatenga : BF
+Sourou : BF
+Kossi : BF
+Ségou : ML
+Banwa : BF
+Sikasso : ML
+Houet : BF
+Kénédougou : BF
+Nimba : LR
+Cavally : CI
+Grand Gedeh : LR
+Bas-Sassandra : CI
+River Gee : LR
+Maryland : LR
+Macenta : GN
+Yomou : GN
+Bong : LR
+Nzérékoré : GN
+Gaoual : GN
+Gabú : GW
+Boke : GN
+Tombali : GW
+Siguiri : GN
+Koulikoro : ML
+Koubia : GN
+Tougué : GN
+Dinguiraye : GN
+Stœng Trêng : KH
+Hà Giang : VN
+Guangxi : CN
+Cao Bằng : VN
+Lào Cai : VN
+Lai Chau : VN
+Lạng Sơn : VN
+Quảng Ninh : VN
+Brunei and Muara : BN
+Tutong : BN
+Belait : BN
+Tripura : IN
+Sylhet : BD
+Meghalaya : IN
+Dhaka : BD
+Rangpur : BD
+Rajshahi : BD
+Khulna : BD
+Cabo Delgado : MZ
+Mtwara : TZ
+Niassa : MZ
+Gibraltar : GI
+Cádiz : ES
+Minnesota : US
+Ontario : CA
+Washington : US
+British Columbia : CA
+Idaho : US
+Montana : US
+Alberta : CA
+Saskatchewan : CA
+North Dakota : US
+Manitoba : CA
+Michigan : US
+Maine : US
+Québec : CA
+New Brunswick : CA
+Ohio : US
+New Hampshire : US
+New York : US
+Vermont : US
+Pennsylvania : US
+Arizona : US
+Sonora : MX
+Baja California : MX
+California : US
+New Mexico : US
+Chihuahua : MX
+Texas : US
+Coahuila : MX
+Tamaulipas : MX
+Nuevo León : MX
+Cayo : BZ
+Petén : GT
+Orange Walk : BZ
+Corozal : BZ
+Quintana Roo : MX
+Campeche : MX
+Tabasco : MX
+Chiapas : MX
+San Marcos : GT
+Huehuetenango : GT
+Quiché : GT
+Alta Verapaz : GT
+Guanacaste : CR
+Rivas : NI
+Izabal : GT
+Cortés : HN
+Santa Bárbara : HN
+Copán : HN
+Zacapa : GT
+Bocas del Toro : PA
+Puntarenas : CR
+Chiriquí : PA
+Kuna Yala : PA
+Chocó : CO
+Emberá : PA
+Darién : PA
+Barima-Waini : GY
+Delta Amacuro : VE
+Bolívar : VE
+Amazonas : BR
+Guainía : CO
+Vaupés : CO
+Amazonas : CO
+Loreto : PE
+Orellana : EC
+Pastaza : EC
+Morona Santiago : EC
+Amazonas : PE
+Zamora Chinchipe : EC
+Cajamarca : PE
+Loja : EC
+Tumbes : PE
+El Oro : EC
+Piura : PE
+Amazonas : VE
+Chuquisaca : BO
+Ucayali : PE
+Pando : BO
+Rondônia : BR
+El Beni : BO
+Mato Grosso : BR
+Puno : PE
+Catamarca : AR
+Atacama : CL
+La Rioja : AR
+San Juan : AR
+Coquimbo : CL
+Mendoza : AR
+Región Metropolitana de Santiago : CL
+Valparaíso : CL
+Maule : CL
+Libertador General Bernardo O'Higgins : CL
+Neuquén : AR
+Bío-Bío : CL
+La Araucanía : CL
+Los Ríos : CL
+Chubut : AR
+Los Lagos : CL
+Río Negro : AR
+Aisén del General Carlos Ibáñez del Campo : CL
+Santa Cruz : AR
+Magallanes y Antártica Chilena : CL
+Tierra del Fuego : AR
+Zulia : VE
+La Guajira : CO
+Cesar : CO
+Norte de Santander : CO
+Táchira : VE
+Apure : VE
+Arauca : CO
+Boyacá : CO
+Vichada : CO
+Pomeranian : PL
+Papua : ID
+Sandaun : PG
+Western : PG
+Balkan : TM
+Mangghystau : KZ
+Qyzylorda : KZ
+Karakalpakstan : UZ
+Aqtöbe : KZ
+Navoi : UZ
+Tashauz : TM
+Khorezm : UZ
+Bukhoro : UZ
+North Khorasan : IR
+Golestan : IR
+Razavi Khorasan : IR
+South Khorasan : IR
+Nimroz : AF
+Sistan and Baluchestan : IR
+Farah : AF
+K.P. : PK
+F.A.T.A. : PK
+Kunar : AF
+Nuristan : AF
+Nangarhar : AF
+Khost : AF
+Paktya : AF
+Baluchistan : PK
+Paktika : AF
+Zabul : AF
+Kandahar : AF
+Hilmand : AF
+North Kazakhstan : KZ
+Tyumen' : RU
+Kurgan : RU
+Omsk : RU
+Qostanay : KZ
+Pavlodar : KZ
+Novosibirsk : RU
+Chelyabinsk : RU
+Altay : RU
+Orenburg : RU
+West Kazakhstan : KZ
+Saratov : RU
+Astrakhan' : RU
+Volgograd : RU
+Atyrau : KZ
+Mafraq : JO
+As Suwayda' : SY
+Dar`a : SY
+Shamal Sina' : EG
+Al Hudud ash Shamaliyah : SA
+Al-Anbar : IQ
+An-Najaf : IQ
+Al Jawf : SA
+Ma`an : JO
+Amman : JO
+Zarqa : JO
+Al Ahmadi : KW
+Ninawa : IQ
+Dayr Az Zawr : SY
+Hadramawt : YE
+Dhofar : OM
+Al Mahrah : YE
+Al Wusta : OM
+Najran : SA
+Sa`dah : YE
+`Asir : SA
+Hajjah : YE
+Jizan : SA
+Al Jawf : YE
+Al Kufrah : LY
+Ennedi : TD
+Borkou : TD
+Murzuq : LY
+Tibesti : TD
+Agadez : NE
+Tamanghasset : DZ
+Tiris Zemmour : MR
+Tindouf : DZ
+Kanem : TD
+Northern : SD
+Aswan : EG
+Al Wadi at Jadid : EG
+Al Bahr al Ahmar : EG
+River Nile : SD
+Red Sea : SD
+Eastern : KE
+North-Eastern : KE
+Béchar : DZ
+Meknès - Tafilalet : MA
+Souss - Massa - Draâ : MA
+Dakhlet Nouadhibou : MR
+Adrar : MR
+Jendouba : TN
+El Tarf : DZ
+Kebili : TN
+El Oued : DZ
+Tozeur : TN
+Tébessa : DZ
+Gafsa : TN
+Kassérine : TN
+Le Kef : TN
+Souk Ahras : DZ
+Ouargla : DZ
+Kidal : ML
+North Darfur : SD
+Western Darfur : SD
+Ouaddaï : TD
+Wadi Fira : TD
+Al Butnan : LY
+Matruh : EG
+Ajdabiya : LY
+Bafatá : GW
+Oio : GW
+Sédhiou : SN
+Cacheu : GW
+Ziguinchor : SN
+Jubbada Hoose : SO
+Coast : KE
+Mara : TZ
+Nyanza : KE
+Arusha : TZ
+Kilimanjaro : TZ
+Tanga : TZ
+Rakai : UG
+Kalangala : UG
+Buvuma : UG
+Mayuge : UG
+Namayingo : UG
+Litoral : GQ
+Kié-Ntem : GQ
+Centro Sur : GQ
+Wele-Nzás : GQ
+Estuaire : GA
+Brakna : MR
+Saint-Louis : SN
+Trarza : MR
+Gorgol : MR
+Matam : SN
+Guidimaka : MR
+Hodh ech Chargui : MR
+Hodh el Gharbi : MR
+Assaba : MR
+Western : ZM
+Cuando Cubango : AO
+Moxico : AO
+North-Western : ZM
+Namibe : AO
+Kunene : NA
+Cunene : AO
+Omusati : NA
+Ohangwena : NA
+Kavango : NA
+Caprivi : NA
+Tete : MZ
+Mashonaland East : ZW
+Manica : MZ
+Manicaland : ZW
+Gaza : MZ
+Zaire : AO
+Uíge : AO
+Kasaï-Occidental : CD
+Lunda Norte : AO
+Malanje : AO
+Lunda Sul : AO
+Hardap : NA
+Otjozondjupa : NA
+Omaheke : NA
+Ghanzi : BW
+Central River : GM
+Kaffrine : SN
+North Bank : GM
+Kaolack : SN
+Upper River : GM
+Lower River : GM
+Fatick : SN
+West Coast : GM
+Illizi : DZ
+Ash Shati' : LY
+Ghat : LY
+Séno : BF
+Yagha : BF
+Komondjari : BF
+Sangha-Mbaéré : CF
+Est : CM
+Nana-Mambéré : CF
+Mambéré-Kadéï : CF
+Kaabong : UG
+Kitgum : UG
+Lamwo : UG
+Amuru : UG
+Adjumani : UG
+Moyo : UG
+Yumbe : UG
+Koboko : UG
+Mpumalanga : ZA
+Hhohho : SZ
+Manzini : SZ
+Shiselweni : SZ
+Luapula : ZM
+Copperbelt : ZM
+Central : ZM
+Koulpélogo : BF
+Boulgou : BF
+Donga : BJ
+Zou : BJ
+Kouffo : BJ
+Mono : BJ
+Nahouri : BF
+Sissili : BF
+Upper West : GH
+Ioba : BF
+Nkhotakota : MW
+Salima : MW
+Mangochi : MW
+Machinga : MW
+Dedza : MW
+Lilongwe : MW
+Nsanje : MW
+Chikwawa : MW
+Mwanza : MW
+Neno : MW
+Ntcheu : MW
+Zomba : MW
+Zambezia : MZ
+Phalombe : MW
+Mulanje : MW
+Thyolo : MW
+Moroto : UG
+Western : KE
+Kapchorwa : UG
+Bukwa : UG
+Amudat : UG
+Busia : UG
+Tororo : UG
+Manafwa : UG
+Bududa : UG
+Maracha : UG
+Arua : UG
+Zombo : UG
+Nebbi : UG
+Buliisa : UG
+Hoima : UG
+Ntoroko : UG
+Bundibugyo : UG
+Kabarole : UG
+Kasese : UG
+Rubirizi : UG
+Rukungiri : UG
+Kanungu : UG
+Debub : ER
+Semenawi Keyih Bahri : ER
+Gash Barka : ER
+Kassala : SD
+Maekel : ER
+Ida-Viru : EE
+Põlva : EE
+Tartu : EE
+Jõgeva : EE
+Punjab : IN
+Rajasthan : IN
+Alaska : US
+Yukon : CA
+White Nile : SD
+South Kordufan : SD
+Unity : SS
+North : HK
+Guangdong : CN
+Vatican : VA
+Northern Bahr el Ghazal : SS
+Eastern Darfur : SD
+Naâma : DZ
+Tlemcen : DZ
+Himachal Pradesh : IN
+Northern Cyprus : -1
+Famagusta : CY
+Nicosia : CY
+Larnaca : CY
+Kashmir : -1
+Baykonur lease in Qyzylorda : -1
+Quneitra : SY
+Akrotiri : -1
+Limassol : CY
+Toledo : BZ
+Beja : PT
+Huelva : ES
+Faro : PT
+Thimphu : BT
+Paro : BT
+Gasa : BT
+Crimea : RU
+Kherson : UA
+Flintshire : GB
+Cheshire West and Chester : GB
+Wrexham : GB
+Shropshire : GB
+Powys : GB
+Herefordshire : GB
+Monmouthshire : GB
+Gloucestershire : GB
+Scottish Borders : GB
+Northumberland : GB
+Cumbria : GB
+Dumfries and Galloway : GB
+Brussels : BE
+Flemish Brabant : BE
+Walloon Brabant : BE
+Central Bosnia : BA
+Zenica-Doboj : BA
+Tuzla : BA
+Sarajevo-romanija : BA
+Sarajevo : BA
+Bosnian Podrinje : BA
+Grad Beograd : RS
+Podunavski : RS
+Guria : GE
+Sala ad-Din : IQ
+At-Ta'mim : IQ
+Antarctica : AQ
+Auckland Islands : NZ
+Buenos Aires : AR
+Maranhão : BR
+Piauí : BR
+Ceará : BR
+Rio Grande do Norte : BR
+Paraíba : BR
+Pernambuco : BR
+Alagoas : BR
+Sergipe : BR
+Bahia : BR
+Espírito Santo : BR
+Rio de Janeiro : BR
+São Paulo : BR
+Maldonado : UY
+Canelones : UY
+Montevideo : UY
+San José : UY
+Colonia : UY
+Soriano : UY
+Río Negro : UY
+Ciudad de Buenos Aires : AR
+Nord : NC
+Western Australia : AU
+Northern Territory : AU
+Boeny : MG
+Sofia : MG
+Diana : MG
+Sava : MG
+Analanjirofo : MG
+Atsinanana : MG
+Vatovavy-Fitovinany : MG
+Atsimo-Atsinanana : MG
+Anosy : MG
+Androy : MG
+Atsimo-Andrefana : MG
+Menabe : MG
+Melaky : MG
+South Australia : AU
+Queensland : AU
+New South Wales : AU
+Jervis Bay Territory : AU
+Victoria : AU
+Cuanza Sul : AO
+Benguela : AO
+Erongo : NA
+Western Cape : ZA
+Maputo : MZ
+Inhambane : MZ
+Sofala : MZ
+Nampula : MZ
+Lindi : TZ
+Pwani : TZ
+Dar-Es-Salaam : TZ
+Jawa Timur : ID
+Maluku : ID
+Nusa Tenggara Barat : ID
+Sulawesi Selatan : ID
+Jawa Tengah : ID
+Jawa Barat : ID
+Jakarta Raya : ID
+Banten : ID
+Yogyakarta : ID
+Sulawesi Tenggara : ID
+Papua Barat : ID
+Guayas : EC
+Sulawesi Tengah : ID
+Maluku Utara : ID
+Galápagos : EC
+East Sepik : PG
+Madang : PG
+Morobe : PG
+Northern : PG
+Milne Bay : PG
+Central : PG
+National Capital District : PG
+Gulf : PG
+Kepulauan Riau : ID
+Riau : ID
+Gorontalo : ID
+Sulawesi Utara : ID
+Sulawesi Barat : ID
+Cauca : CO
+Moquegua : PE
+Arequipa : PE
+Ica : PE
+Lima : PE
+Lima Province : PE
+Callao : PE
+Áncash : PE
+La Libertad : PE
+Lambayeque : PE
+Santa Elena : EC
+Manabi : EC
+Valle del Cauca : CO
+Panama : PA
+Coclé : PA
+Sulu : PH
+Jambi : ID
+Sumatera Selatan : ID
+Lampung : ID
+Bengkulu : ID
+Sumatera Barat : ID
+Sumatera Utara : ID
+Aceh : ID
+Demerara-Mahaica : GY
+Kalimantan Tengah : ID
+Kalimantan Selatan : ID
+Davao del Norte : PH
+Veraguas : PA
+Zamboanga Sibugay : PH
+Palawan : PH
+Sóc Trăng : VN
+Surigao del Norte : PH
+Surigao del Sur : PH
+Agusan del Norte : PH
+Butuan : PH
+Misamis Oriental : PH
+Cagayan de Oro : PH
+Iligan : PH
+Lanao del Norte : PH
+Zamboanga del Sur : PH
+Misamis Occidental : PH
+Zamboanga del Norte : PH
+Zamboanga : PH
+Lanao del Sur : PH
+Maguindanao : PH
+Cotabato : PH
+Sultan Kudarat : PH
+Sarangani : PH
+General Santos : PH
+Davao del Sur : PH
+Davao : PH
+Compostela Valley : PH
+Davao Oriental : PH
+Trikuṇāmalaya : LK
+Mulativ : LK
+Yāpanaya : LK
+Kilinŏchchi : LK
+Mannārama : LK
+Puttalama : LK
+Gampaha : LK
+Kŏḷamba : LK
+Kaḷutara : LK
+Gālla : LK
+Mātara : LK
+Hambantŏṭa : LK
+Ampāra : LK
+Maḍakalapuva : LK
+Southern Leyte : PH
+Tiền Giang : VN
+Bà Rịa - Vũng Tàu : VN
+Krong Preah Sihanouk : KH
+Hồ Chí Minh city : VN
+Leyte : PH
+Eastern Samar : PH
+Biliran : PH
+Samar : PH
+Khánh Hòa : VN
+Curaçao : CW
+Colón : PA
+Antioquia : CO
+Córdoba : CO
+Sucre : CO
+Bolívar : CO
+Atlántico : CO
+Magdalena : CO
+Mérida : VE
+Trujillo : VE
+Falcón : VE
+Yaracuy : VE
+Carabobo : VE
+Aragua : VE
+Vargas : VE
+Miranda : VE
+Anzoátegui : VE
+Sucre : VE
+Monagas : VE
+Cuyuni-Mazaruni : GY
+Upper Takutu-Upper Essequibo : GY
+East Berbice-Corentyne : GY
+Essequibo Islands-West Demerara : GY
+Coronie : SR
+Saramacca : SR
+Wanica : SR
+Paramaribo : SR
+Commewijne : SR
+Aruba : AW
+Andhra Pradesh : IN
+Sud : HT
+Ondo : NG
+Delta : NG
+Bayelsa : NG
+Rivers : NG
+Akwa Ibom : NG
+Littoral : CM
+Ogooué-Maritime : GA
+Pointe Noire : CG
+Bengo : AO
+Luanda : AO
+Surt : LY
+Misratah : LY
+Al Marqab : LY
+Tajura' wa an Nawahi al Arba : LY
+Az Zawiyah : LY
+Gabès : TN
+Sfax : TN
+Mahdia : TN
+Monastir : TN
+Sousse : TN
+Nabeul : TN
+Ben Arous (Tunis Sud) : TN
+Tunis : TN
+Manubah : TN
+Bizerte : TN
+Béja : TN
+Annaba : DZ
+Skikda : DZ
+Jijel : DZ
+Béjaïa : DZ
+Tizi Ouzou : DZ
+Boumerdès : DZ
+Alger : DZ
+Tipaza : DZ
+Chlef : DZ
+Mostaganem : DZ
+Oran : DZ
+Aïn Témouchent : DZ
+Taza - Al Hoceima - Taounate : MA
+Gharb - Chrarda - Béni Hssen : MA
+Rabat - Salé - Zemmour - Zaer : MA
+Chaouia - Ouardigha : MA
+Grand Casablanca : MA
+Doukkala - Abda : MA
+Marrakech - Tensift - Al Haouz : MA
+Inchiri : MR
+Nouakchott : MR
+Louga : SN
+Thiès : SN
+Dakar : SN
+Banjul : GM
+Biombo : GW
+Bissau : GW
+Quinara : GW
+Bolama : GW
+Boffa : GN
+Dubréka : GN
+Conakry : GN
+Coyah : GN
+Western : SL
+Bomi : LR
+Montserrado : LR
+Margibi : LR
+Grand Bassa : LR
+River Cess : LR
+Sinoe : LR
+Grand Kru : LR
+Sud-Bandama : CI
+Lagunes : CI
+Central : GH
+Greater Accra : GH
+Atlantique : BJ
+Littoral : BJ
+Colima : MX
+Grand'Anse : HT
+Aurora : PH
+Quezon : PH
+Camarines Norte : PH
+Camarines Sur : PH
+Albay : PH
+Sorsogon : PH
+Lucena : PH
+Batangas : PH
+Cavite : PH
+Las Pinas : PH
+Paranaque : PH
+Pasay : PH
+Manila : PH
+Navotas : PH
+Bulacan : PH
+Pampanga : PH
+Bataan : PH
+Olongapo : PH
+Zambales : PH
+Pangasinan : PH
+Dagupan : PH
+La Union : PH
+Ilocos Sur : PH
+Ilocos Norte : PH
+Cagayan : PH
+Isabela : PH
+Nord-Ouest : HT
+Hainan : CN
+Nayarit : MX
+Inagua : BS
+Providenciales and West Caicos : TC
+South Caicos and East Caicos : TC
+Middle Caicos : TC
+North Caicos : TC
+Mayaguana : BS
+Acklins : BS
+Fujian : CN
+Baja California Sur : MX
+Jubbada Dhexe : SO
+Shabeellaha Hoose : SO
+Banaadir : SO
+Shabeellaha Dhexe : SO
+Djibouti : DJ
+As Suways : EG
+Janub Sina' : EG
+Tabuk : SA
+Al Madinah : SA
+Makkah : SA
+Al Hudaydah : YE
+Ta`izz : YE
+Lahij : YE
+`Adan : YE
+Abyan : YE
+Shabwah : YE
+Ash Sharqiyah South : OM
+Ash Sharqiyah North : OM
+Muscat : OM
+Al Batnah South : OM
+Umm Al Qaywayn : AE
+Ajman : AE
+Al Wakrah : QA
+Ad Dawhah : QA
+Al Daayen : QA
+Al Khawr : QA
+Madinat ach Shamal : QA
+Mubarak Al-Kabeer : KW
+Hawalli : KW
+Al Asimah : KW
+Taoyuan : TW
+Hsinchu : TW
+Hsinchu City : TW
+Miaoli : TW
+Taichung City : TW
+Changhua : TW
+Yunlin : TW
+Chiayi : TW
+Tainan City : TW
+Kaohsiung City : TW
+Pingtung : TW
+Taitung : TW
+Hualien : TW
+Yilan : TW
+New Taipei City : TW
+Keelung City : TW
+Sinaloa : MX
+Louisiana : US
+Mississippi : US
+Alabama : US
+Florida : US
+Georgia : US
+South Carolina : US
+North Carolina : US
+Virginia : US
+District of Columbia : US
+Maryland : US
+Delaware : US
+New Jersey : US
+Connecticut : US
+Rhode Island : US
+Massachusetts : US
+Ngöbe Buglé : PA
+Atlántico Sur : NI
+Colón : HN
+Atlántida : HN
+Stann Creek : BZ
+Belize : BZ
+Yucatán : MX
+Veracruz : MX
+Jalisco : MX
+Michoacán : MX
+Guerrero : MX
+Oaxaca : MX
+Retalhuleu : GT
+Suchitepéquez : GT
+Escuintla : GT
+Santa Rosa : GT
+Sonsonate : SV
+La Libertad : SV
+La Paz : SV
+San Vicente : SV
+Usulután : SV
+León : NI
+Managua : NI
+Carazo : NI
+Los Santos : PA
+Herrera : PA
+Zhejiang : CN
+Shanghai : CN
+Kagoshima : JP
+Jiangsu : CN
+Bushehr : IR
+Hormozgan : IR
+Tel Aviv : IL
+Bur Sa`id : EG
+Ad Daqahliyah : EG
+Ash Sharqiyah : EG
+Al Isma`iliyah : EG
+Dumyat : EG
+Kafr ash Shaykh : EG
+Al Buhayrah : EG
+Al Iskandariyah : EG
+Al Qubbah : LY
+Al Jabal al Akhdar : LY
+Al Marj : LY
+Benghazi : LY
+Ōita : JP
+Fukuoka : JP
+Saga : JP
+Nagasaki : JP
+Kumamoto : JP
+Miyazaki : JP
+Tokushima : JP
+Kagawa : JP
+Ehime : JP
+Kōchi : JP
+Shimane : JP
+South Chungcheong : KR
+Yamaguchi : JP
+Tottori : JP
+Hyōgo : JP
+Kyōto : JP
+Fukui : JP
+Ishikawa : JP
+Toyama : JP
+Niigata : JP
+Yamagata : JP
+Akita : JP
+Aomori : JP
+Iwate : JP
+Miyagi : JP
+Fukushima : JP
+Ibaraki : JP
+Chiba : JP
+Tokyo : JP
+Kanagawa : JP
+Shizuoka : JP
+Aichi : JP
+Mie : JP
+Wakayama : JP
+Ōsaka : JP
+Okayama : JP
+Hiroshima : JP
+Oregon : US
+Nunavut : CA
+Newfoundland and Labrador : CA
+Nova Scotia : CA
+Hokkaidō : JP
+Saint-Pierre : PM
+Miquelon-Langlade : PM
+Orissa : IN
+Barisal : BD
+Ayeyarwady : MM
+Yangon : MM
+Bago : MM
+Phangnga : TH
+Krabi : TH
+Trang : TH
+Pulau Pinang : MY
+Selangor : MY
+Negeri Sembilan : MY
+Melaka : MY
+Johor : MY
+Pahang : MY
+Trengganu : MY
+Pattani : TH
+Phatthalung : TH
+Nakhon Si Thammarat : TH
+Surat Thani : TH
+Samut Songkhram : TH
+Samut Sakhon : TH
+Bangkok Metropolis : TH
+Samut Prakan : TH
+Chachoengsao : TH
+Chon Buri : TH
+Rayong : TH
+Kep : KH
+Cà Mau : VN
+Bạc Liêu : VN
+Hau Giang : VN
+Vĩnh Long : VN
+Trà Vinh : VN
+Bến Tre : VN
+Đông Nam Bộ : VN
+Bình Thuận : VN
+Ninh Thuận : VN
+Phú Yên : VN
+Bình Định : VN
+Quảng Ngãi : VN
+Đà Nẵng : VN
+Ninh Bình : VN
+Nam Định : VN
+Thái Bình : VN
+Hải Phòng : VN
+Shandong : CN
+Hebei : CN
+Tianjin : CN
+P'yŏngan-namdo : KP
+Hwanghae-namdo : KP
+Incheon : KR
+North Jeolla : KR
+South Jeolla : KR
+South Gyeongsang : KR
+Busan : KR
+Ulsan : KR
+North Gyeongsang : KR
+Hamgyŏng-namdo : KP
+Maga Buryatdan : RU
+Daman and Diu : IN
+Maharashtra : IN
+Goa : IN
+Karnataka : IN
+Kerala : IN
+Puducherry : IN
+Tamil Nadu : IN
+Sakhalin : RU
+Dublin : IE
+Dún Laoghaire–Rathdown : IE
+Wicklow : IE
+Wexford : IE
+Kilkenny : IE
+Waterford : IE
+Cork : IE
+Cork : IE
+Kerry : IE
+Limerick : IE
+Clare : IE
+Galway : IE
+Galway : IE
+Mayo : IE
+Sligo : IE
+Limavady : GB
+Coleraine : GB
+Moyle : GB
+Larne : GB
+Carrickfergus : GB
+Newtownabbey : GB
+Belfast : GB
+North Down : GB
+Ards : GB
+Down : GB
+Meath : IE
+Fingal : IE
+Zaporizhzhya : UA
+Sevastopol : RU
+Mykolayiv : UA
+Varna : BG
+Istanbul : TR
+Tekirdag : TR
+Çanakkale : TR
+Clackmannanshire : GB
+Stirling : GB
+Falkirk : GB
+West Lothian : GB
+Edinburgh : GB
+Midlothian : GB
+East Lothian : GB
+North Tyneside : GB
+South Tyneside : GB
+Sunderland : GB
+Durham : GB
+Hartlepool : GB
+Redcar and Cleveland : GB
+North Yorkshire : GB
+East Riding of Yorkshire : GB
+Kingston upon Hull : GB
+North Lincolnshire : GB
+North East Lincolnshire : GB
+Lincolnshire : GB
+Norfolk : GB
+Suffolk : GB
+Essex : GB
+Southend-on-Sea : GB
+Thurrock : GB
+Kent : GB
+Medway : GB
+East Sussex : GB
+Brighton and Hove : GB
+West Sussex : GB
+Hampshire : GB
+Portsmouth : GB
+Southampton : GB
+Dorset : GB
+Bournemouth : GB
+Poole : GB
+Devon : GB
+Torbay : GB
+Plymouth : GB
+Cornwall : GB
+Somerset : GB
+North Somerset : GB
+Bristol : GB
+South Gloucestershire : GB
+Newport : GB
+Cardiff : GB
+Vale of Glamorgan : GB
+Bridgend : GB
+Neath Port Talbot : GB
+Swansea : GB
+Carmarthenshire : GB
+Pembrokeshire : GB
+Ceredigion : GB
+Gwynedd : GB
+Conwy : GB
+Denbighshire : GB
+Halton : GB
+Halton : GB
+Knowsley : GB
+Liverpool : GB
+Sefton : GB
+Lancashire : GB
+Blackpool : GB
+South Ayrshire : GB
+North Ayshire : GB
+Inverclyde : GB
+Renfrewshire : GB
+West Dunbartonshire : GB
+Argyll and Bute : GB
+Highland : GB
+Moray : GB
+Aberdeenshire : GB
+Aberdeen : GB
+Angus : GB
+Dundee : GB
+Perthshire and Kinross : GB
+Fife : GB
+Chukchi Autonomous Okrug : RU
+Austurland : IS
+Suðurland : IS
+Suðurnes : IS
+Reykjavík : IS
+Höfuðborgarsvæði : IS
+Vesturland : IS
+Vestfirðir : IS
+Norðurland vestra : IS
+Norðurland eystra : IS
+Yamal-Nenets : RU
+Nenets : RU
+Northwest Territories : CA
+Sakha (Yakutia) : RU
+Nicas : LV
+Liepāja : LV
+Grobinas : LV
+Pavilostas : LV
+Ventspils : LV
+Ventspils : LV
+Dundagas : LV
+Rojas : LV
+Talsi : LV
+Mersraga : LV
+Engures : LV
+Jurmala : LV
+Riga : LV
+Carnikavas : LV
+Saulkrastu : LV
+Limbaži : LV
+Lääne : EE
+Harju : EE
+Lääne-Viru : EE
+City of St. Petersburg : RU
+Uusimaa : FI
+Finland Proper : FI
+Satakunta : FI
+Ostrobothnia : FI
+Central Ostrobothnia : FI
+Västernorrland : SE
+Gävleborg : SE
+Uppsala : SE
+Stockholm : SE
+Södermanland : SE
+Östergötland : SE
+Kalmar : SE
+Blekinge : SE
+Skåne : SE
+Halland : SE
+Oslo : NO
+Buskerud : NO
+Vestfold : NO
+Telemark : NO
+Aust-Agder : NO
+Vest-Agder : NO
+Rogaland : NO
+Hordaland : NO
+Sogn og Fjordane : NO
+Møre og Romsdal : NO
+Rize : TR
+Trabzon : TR
+Giresun : TR
+Ordu : TR
+Samsun : TR
+Sinop : TR
+Kastamonu : TR
+Bartın : TR
+Zinguldak : TR
+Düzce : TR
+Sakarya : TR
+Kocaeli : TR
+Yalova : TR
+Bursa : TR
+Balikesir : TR
+Izmir : TR
+Aydin : TR
+Mugla : TR
+Antalya : TR
+Mersin : TR
+Adana : TR
+Mount Lebanon : LB
+Beirut : LB
+Arkhangel'sk : RU
+Krasnoyarsk : RU
+Ayion Oros : GR
+Thessalia : GR
+Stereá Elláda : GR
+Attiki : GR
+Peloponnisos : GR
+Dytiki Ellada : GR
+Fier : AL
+Durrës : AL
+Durrës : AL
+Lezhë : AL
+Budva : ME
+Tivat : ME
+Šibensko-Kninska : HR
+Licko-Senjska : HR
+Izola : SI
+Venezia : IT
+Padova : IT
+Rovigo : IT
+Ferrara : IT
+Ravenna : IT
+Forlì-Cesena : IT
+Ancona : IT
+Macerata : IT
+Fermo : IT
+Ascoli Piceno : IT
+Teramo : IT
+Pescara : IT
+Chieti : IT
+Campobasso : IT
+Foggia : IT
+Barletta-Andria Trani : IT
+Bari : IT
+Brindisi : IT
+Lecce : IT
+Taranto : IT
+Matera : IT
+Cosenza : IT
+Crotene : IT
+Catanzaro : IT
+Reggio Calabria : IT
+Vibo Valentia : IT
+Potenza : IT
+Salerno : IT
+Napoli : IT
+Caserta : IT
+Latina : IT
+Roma : IT
+Viterbo : IT
+Grosseto : IT
+Livorno : IT
+Pisa : IT
+Lucca : IT
+Massa-Carrara : IT
+La Spezia : IT
+Genova : IT
+Savona : IT
+Var : FR
+Bouches-du-Rhône : FR
+Gard : FR
+Hérault : FR
+Aude : FR
+Barcelona : ES
+Tarragona : ES
+Castellón : ES
+Valencia : ES
+Alicante : ES
+Murcia : ES
+Almería : ES
+Granada : ES
+Málaga : ES
+Sevilla : ES
+Setúbal : PT
+Lisboa : PT
+Santarém : PT
+Leiria : PT
+Coimbra : PT
+Aveiro : PT
+Porto : PT
+La Coruña : ES
+Lugo : ES
+Asturias : ES
+Cantabria : ES
+Bizkaia : ES
+Landes : FR
+Gironde : FR
+Charente-Maritime : FR
+Vendée : FR
+Loire-Atlantique : FR
+Morbihan : FR
+Finistère : FR
+Côtes-d'Armor : FR
+Ille-et-Vilaine : FR
+Manche : FR
+Calvados : FR
+Eure : FR
+Seine-Maritime : FR
+Somme : FR
+Pas-de-Calais : FR
+Zuid-Holland : NL
+Noord-Holland : NL
+Friesland : NL
+Bremen : DE
+Hamburg : DE
+Midtjylland : DK
+Nordjylland : DK
+Kommuneqarfik Sermersooq : GL
+Nationalparken : GL
+Qaasuitsup Kommunia : GL
+Pituffik : GL
+Qeqqata Kommunia : GL
+Kommune Kujalleq : GL
+ : AQ
+Pitcairn Islands : PN
+Tuamotu-Gambier : PF
+Windward Islands : PF
+Iles Eparses de l'ocean Indien : TF
+Leeward Islands : PF
+Outer Islands : SC
+La Digue and Inner Islands : SC
+Kiribati : KI
+Railik Chain : MH
+Ratak Chain : MH
+Lakshadweep : IN
+Nueva Esparta : VE
+Tunapuna/Piarco : TT
+San Juan-Laventille : TT
+Diego Martin : TT
+Port of Spain : TT
+Chaguanas : TT
+Couva-Tabaquite-Talparo : TT
+San Fernando : TT
+Penal-Debe : TT
+Siparia : TT
+Point Fortin : TT
+Princes Town : TT
+Rio Claro-Mayaro : TT
+Sangre Grande : TT
+Dependencias Federales : VE
+Eastern Tobago : TT
+Western Tobago : TT
+Saint George : GD
+Saint David : GD
+Saint Andrew : GD
+Saint Patrick : GD
+Saint Mark : GD
+Saint John : GD
+Andaman and Nicobar : IN
+Bonaire : NL
+Carriacou and Petite Martinique : GD
+San Andrés y Providencia : CO
+Grenadines : VC
+Saint Joseph : BB
+Saint Andrew : BB
+Saint Peter : BB
+Saint Lucy : BB
+Saint James : BB
+Saint Michael : BB
+Christ Church : BB
+Saint Philip : BB
+Saint John : BB
+Saint Andrew : VC
+Saint George : VC
+Charlotte : VC
+Saint David : VC
+Saint Patrick : VC
+Gros Islet : LC
+Castries : LC
+Anse-la-Raye : LC
+Soufrière : LC
+Choiseul : LC
+Laborie : LC
+Vieux Fort : LC
+Micoud : LC
+Praslin : LC
+Dennery : LC
+Dauphin : LC
+Martinique : FR
+Saint Patrick : DM
+Saint David : DM
+Saint Andrew : DM
+Saint John : DM
+Saint Peter : DM
+Saint Joseph : DM
+Saint Paul : DM
+Saint George : DM
+Saint Luke : DM
+Saint Mark : DM
+Guadeloupe : FR
+Islas de la Bahía : HN
+Johnston Atoll : UM
+Saint Peter : MS
+Saint Anthony : MS
+Saint Georges : MS
+Saint Paul : AG
+Saint Philip : AG
+Saint Peter : AG
+Saint George : AG
+Saint John : AG
+Saint Mary : AG
+Saint Paul Charlestown : KN
+Saint John Figtree : KN
+Saint George Gingerland : KN
+Saint James Windward : KN
+Saint Thomas Lowland : KN
+Saint Paul Capesterre : KN
+Saint Anne Sandy Point : KN
+Saint Thomas Middle Island : KN
+Trinity Palmetto Point : KN
+Saint George Basseterre : KN
+Saint Peter Basseterre : KN
+Saint Mary Cayon : KN
+Christ Church Nichola Town : KN
+Saint John Capesterre : KN
+St. Eustatius : NL
+Barbuda : AG
+Saint Croix : VI
+Saint Barthélemy : BL
+Puerto Rico : PR
+La Altagracia : DO
+East End : AI
+Stoney Ground : AI
+North Side : AI
+The Valley : AI
+North Hill : AI
+Sandy Ground : AI
+South Hill : AI
+West End : AI
+Blowing Point : AI
+The Farrington : AI
+Sandy Hill : AI
+Island Harbour : AI
+Saint John : VI
+Saint Thomas : VI
+British Virgin Islands : VG
+Saint Ann : JM
+Trelawny : JM
+Saint James : JM
+Hanover : JM
+Westmoreland : JM
+Saint Elizabeth : JM
+Manchester : JM
+Clarendon : JM
+Saint Catherine : JM
+Saint Andrew : JM
+Kingston : JM
+Saint Thomas : JM
+Portland : JM
+Saint Mary : JM
+Cayman Islands : KY
+El Seybo : DO
+Hato Mayor : DO
+Samaná : DO
+María Trinidad Sánchez : DO
+Espaillat : DO
+Puerto Plata : DO
+Nord : HT
+L'Artibonite : HT
+Nippes : HT
+Barahona : DO
+Azua : DO
+Peravia : DO
+San Cristóbal : DO
+Santo Domingo : DO
+Distrito Nacional : DO
+San Pedro de Macorís : DO
+La Romana : DO
+Camagüey : CU
+Ciego de Ávila : CU
+Holguín : CU
+Grand Turk : TC
+Isla de la Juventud : CU
+Crooked Island and Long Cay : BS
+Sancti Spíritus : CU
+Villa Clara : CU
+Matanzas : CU
+Exuma : BS
+Long Island : BS
+Rum Cay : BS
+Black Point : BS
+San Salvador : BS
+Central Andros : BS
+Mangrove Cay : BS
+South Andros : BS
+Cat Island : BS
+New Providence : BS
+North Andros : BS
+Central Eleuthera : BS
+North Eleuthera : BS
+South Eleuthera : BS
+Berry Islands : BS
+Moore's Island : BS
+City of Freeport : BS
+West Grand Bahama : BS
+East Grand Bahama : BS
+Central Abaco : BS
+South Abaco : BS
+North Abaco : BS
+Hamilton : BM
+Smith's : BM
+Devonshire : BM
+Pembroke : BM
+City of Hamilton : BM
+Paget : BM
+Warwick : BM
+Southampton : BM
+Sandys : BM
+Saint George's : BM
+Kalmyk : RU
+Dəvəçi : AZ
+Siyəzən : AZ
+Xizı : AZ
+Sumqayıt : AZ
+Bakı : AZ
+Salyan : AZ
+Neftçala : AZ
+Lankaran : AZ
+Masallı : AZ
+Lankaran : AZ
+Mazandaran : IR
+Heard Island and McDonald Islands : HM
+Archipel des Kerguelen : TF
+Archipel des Crozet : TF
+Tristan da Cunha : SH
+La Réunion : FR
+Rivière du Rempart : MU
+Pamplemousses : MU
+Port Louis city : MU
+Rivière Noire : MU
+Savanne : MU
+Grand Port : MU
+Flacq : MU
+Saint Helena : SH
+Mayotte : FR
+Moûhîlî : KM
+Andjouân : KM
+Andjazîdja : KM
+Agaléga : MU
+Ascension : SH
+Zanzibar South and Central : TZ
+Kaskazini-Unguja : TZ
+Zanzibar West : TZ
+Kusini-Pemba : TZ
+Kaskazini-Pemba : TZ
+Grand'Anse : SC
+Anse Boileau : SC
+Baie Lazare : SC
+Takamaka : SC
+Anse Royale : SC
+Au Cap : SC
+Anse aux Pins : SC
+Pointe La Rue : SC
+Cascade : SC
+Roche Caïman : SC
+Plaisance : SC
+Mont Fleuri : SC
+Bel Air : SC
+English River : SC
+Anse Etoile : SC
+Glacis : SC
+Beau Vallon : SC
+Bel Ombre : SC
+Port Glaud : SC
+Baie Sainte Anne : SC
+Grand'Anse Praslin : SC
+Annobón : GQ
+São Tomé : ST
+Príncipe : ST
+Bioko Norte : GQ
+Bioko Sur : GQ
+Brava : CV
+Santa Catarina do Fogo : CV
+Mosteiros : CV
+São Filipe : CV
+Tarrafal : CV
+Santa Catarina : CV
+Ribeira Grande de Santiago : CV
+Praia : CV
+São Domingos : CV
+Santa Cruz : CV
+São Miguel : CV
+Maio : CV
+Boa Vista : CV
+Ribeira Brava : CV
+Tarrafal de São Nicolau : CV
+Sal : CV
+São Vicente : CV
+Ribeira Grande : CV
+Porto Novo : CV
+Paul : CV
+Santa Cruz de Tenerife : ES
+Las Palmas : ES
+Madeira : PT
+Kriti : GR
+Notio Aigaio : GR
+Paphos : CY
+Kalkara : MT
+Valletta : MT
+Sliema : MT
+San Giljan : MT
+Pembroke : MT
+Naxxar : MT
+San Pawl il-Bahar : MT
+Mellieħa : MT
+Mġarr : MT
+Rabat : MT
+Dingli : MT
+Siġġiewi : MT
+Qrendi : MT
+Żurrieq : MT
+Birżebbuġa : MT
+Marsaxlokk : MT
+Marsaskala : MT
+Żabbar : MT
+Xgħajra : MT
+San Lawrenz : MT
+Kerċem : MT
+Munxar : MT
+Sannat : MT
+Għajnsielem : MT
+Qala : MT
+Nadur : MT
+Xagħra : MT
+Żebbuġ : MT
+Għasri : MT
+Għarb : MT
+Trapani : IT
+Azores : PT
+Voreio Aigaio : GR
+Ionioi Nisoi : GR
+Messina : IT
+Palermo : IT
+Agrigento : IT
+Caltanissetta : IT
+Ragusa : IT
+Siracusa : IT
+Catania : IT
+Baleares : ES
+Carbonia-Iglesias : IT
+Sassari : IT
+Nuoro : IT
+Olbia-Tempio : IT
+Oristrano : IT
+Medio Campidano : IT
+Cagliari : IT
+Ogliastra : IT
+Haute-Corse : FR
+Corse-du-Sud : FR
+Jersey : JE
+Sark : GG
+Isle of Wight : GB
+Anglesey : GB
+Isle of Man : IM
+Sjaælland : DK
+Hovedstaden : DK
+Eilean Siar : GB
+Gotland : SE
+Orkney : GB
+Shetland Islands : GB
+Lumparland : AX
+Eckerö : AX
+Vårdö : AX
+Kumlinge : AX
+Jomala : AX
+Mariehamn : AX
+Eysturoyar : FO
+Tasmania : AU
+Cocos (Keeling) Islands : -1
+Bali : ID
+British Indian Ocean Territory : IO
+South West : SG
+Central Singapore : SG
+South East : SG
+North East : SG
+North West : SG
+Labuan : MY
+Phuket : TH
+Hawaii : US
+Okinawa : JP
+Kinmen : TW
+Jeju : KR
+Kamchatka : RU
+Saare : EE
+Hiiu : EE
+Kökar : AX
+Föglö : AX
+Sottunga : AX
+Svalbard : NO
+Macquarie Island : AU
+Campbell Islands : NZ
+Antipodes Islands : NZ
+Chatham Islands Territory : NZ
+Lord Howe Island : AU
+Kermadec Islands : NZ
+Norfolk Island : NF
+Austral Islands : PF
+Mangaia : CK
+Mitiaro : CK
+Eastern : FJ
+Vava'u : TO
+Sigave : WF
+Alo : WF
+Gaga'emauga : WS
+Gaga'ifomauga : WS
+Vaisigano : WS
+Satupa'itea : WS
+Palauli : WS
+Fa'asaleleaga : WS
+Rennell and Bellona : SB
+Marquesas Islands : PF
+Makira : SB
+Temotu : SB
+Malaita : SB
+Capital Territory (Honiara) : SB
+Guadalcanal : SB
+Central : SB
+Penrhyn : CK
+Western : SB
+Tuvalu : TV
+Isabel : SB
+Ainaro : TL
+Manufahi : TL
+Manatuto : TL
+Viqueque : TL
+Lautém : TL
+Baucau : TL
+Dili : TL
+Liquica : TL
+ : KI
+North Solomons : PG
+West New Britain : PG
+East New Britain : PG
+New Ireland : PG
+Bangka-Belitung : ID
+Manus : PG
+Addu : MV
+Anetan : NR
+Ewa : NR
+Baiti : NR
+Uaboe : NR
+Nibok : NR
+Denigomodu : NR
+Aiwo : NR
+Boe : NR
+Yaren : NR
+Meneng : NR
+Anibare : NR
+Ijuw : NR
+Anabar : NR
+Gnaviyani : MV
+Gaafu Dhaalu : MV
+Gaafu Alifu : MV
+Alifu Dhaalu : MV
+Kaafu : MV
+Alifu Alifu : MV
+Baa : MV
+Lhaviyani : MV
+Tawi-Tawi : PH
+Kosrae : FM
+Raa : MV
+Shaviyani : MV
+Basilan : PH
+Pohnpei : FM
+Chuuk : FM
+Camiguin : PH
+Siquijor : PH
+Bohol : PH
+Guimaras : PH
+Bacolod : PH
+Negros Occidental : PH
+Negros Oriental : PH
+Cebu : PH
+Mandaue : PH
+Cebu : PH
+Puerto Princesa : PH
+Tacloban : PH
+Ormoc : PH
+Aklan : PH
+Antique : PH
+Iloilo : PH
+Iloilo : PH
+Capiz : PH
+Romblon : PH
+Northern Samar : PH
+Masbate : PH
+Mindoro Oriental : PH
+Mindoro Occidental : PH
+Marinduque : PH
+Catanduanes : PH
+Batanes : PH
+South Georgia and the South Sandwich Islands : GS
+Bouvet Island : NO
+Falkland Islands : FK
+Iles Saint-Paul et Nouvelle-Amsterdam : TF
+Sud : NC
+Îles Loyauté : NC
+Eua : TO
+Rarotonga : CK
+Tongatapu : TO
+Tafea : VU
+Ha'apai : TO
+Rodrigues : MU
+Niue : NU
+Western : FJ
+Central : FJ
+Shefa : VU
+Northern : FJ
+Malampa : VU
+Sanma : VU
+Niuas : TO
+Penama : VU
+Western : AS
+Eastern : AS
+Manu's : AS
+Torba : VU
+Atua : WS
+Va'a-o-Fonoti : WS
+Tuamasaga : WS
+A'ana : WS
+Aiga-i-le-Tai : WS
+`Uvea : WF
+Rotuma : FJ
+Choiseul : SB
+Peleliu : PW
+Koror : PW
+Ngeremlengui : PW
+Ngatpang : PW
+Aimeliik : PW
+Airai : PW
+Ngchesar : PW
+Melekeok : PW
+Ngiwal : PW
+Ngaraard : PW
+Ngarchelong : PW
+Ngardmau : PW
+Yap : FM
+Guam : GU
+Rota : MP
+Tinian : MP
+Saipan : MP
+Paracel Islands : CN
+Northern Islands : MP
+Las Tunas : CU
+Mayabeque : CU
+Ciudad de la Habana : CU
+Artemisa : CU
+Pinar del Río : CU
+Cienfuegos : CU
+Granma : CU
+Santiago de Cuba : CU
+Penghu : TW
+Al Manāmah : BH
+Ash Shamālīyah : BH
+Al Janūbīyah : BH
+Al Wusţá : BH
+Prince Edward Island : CA
+Coral Sea Islands : -1
+Mauke : CK
+Atiu : CK
+Aitutaki : CK
+Rose Atoll : AS
+Swain's Island : AS
+Pukapuka : CK
+Christmas Island : -1
+Manihiki : CK
+Rakahanga : CK
+Tokelau : TK
+Jarvis Island : UM
+Baker Island : UM
+Howland Island : UM
+Laamu : MV
+Thaa : MV
+Dhaalu : MV
+Meemu : MV
+Hatobohei : PW
+Faafu : MV
+Vaavu : MV
+ : CO
+Malé : MV
+Sonsorol : PW
+Noonu : MV
+Haa Dhaalu : MV
+Haa Alifu : MV
+Angaur : PW
+Spratly Islands : -1
+ : VE
+ : AI
+Wake Atoll : UM
+Bimini : BS
+Midway Islands : UM
+Isles of Scilly : GB
+Palmerston : CK
+Clipperton Island : -1
+Saba : NL
+Navassa Island : UM
+Salt Cay : TC
+Macau : MO
+Ragged Island : BS
+Islands : HK
+Southern : HK
+Central and Western : HK
+Wan Chai : HK
+Eastern : HK
+Tsuen Wan : HK
+ : MX
+Tai Po : HK
+Sha Tin : HK
+Sai Kung : HK
+Kwun Tong : HK
+Kowloon City : HK
+Yau Tsim Mong : HK
+Sham Shui Po : HK
+Kwai Tsing : HK
+Tuen Mun : HK
+Yuen Long : HK
+Lemland : AX
+Brändö : AX
+ : RU
+The Snares : NZ
+Southland : NZ
+Marlborough District : NZ
+Nelson City : NZ
+Tasman District : NZ
+West Coast : NZ
+Otago : NZ
+Canterbury : NZ
+Auckland : NZ
+Waikato : NZ
+Three Kings Islands : NZ
+Wellington : NZ
+Manawatu-Wanganui : NZ
+Taranaki : NZ
+Northland : NZ
+Bay of Plenty : NZ
+Gisborne District : NZ
+Hawke's Bay : NZ
+Ashmore and Cartier Islands : AU
+Palmyra Atoll : UM
+Kayangel : PW
+Lapu-Lapu : PH
+Redonda : AG
+Harbour Island : BS
+Spanish Wells : BS
+Al Muḩarraq : BH
+Midlands : ZW
+Harare : ZW
+Bulawayo : ZW
+Ma'rib : YE
+Sana'a : YE
+Raymah : YE
+Al Bayda' : YE
+Amran : YE
+Al Dali' : YE
+Ibb : YE
+Al Mahwit : YE
+Dhamar : YE
+Hòa Bình : VN
+Tuyên Quang : VN
+Yên Bái : VN
+Vĩnh Phúc : VN
+Phú Thọ : VN
+Ha Noi : VN
+Đông Bắc : VN
+Đồng Bằng Sông Hồng : VN
+Bắc Ninh : VN
+Bắc Giang : VN
+Thái Nguyên : VN
+Hải Dương : VN
+Hà Nam : VN
+Bình Dương : VN
+Lâm Đồng : VN
+Can Tho : VN
+Tacuarembó : UY
+Durazno : UY
+Flores : UY
+Florida : UY
+Lavalleja : UY
+Guárico : VE
+Cojedes : VE
+Distrito Capital : VE
+Barinas : VE
+Lara : VE
+Portuguesa : VE
+Poltava : UA
+Khmel'nyts'kyy : UA
+Ternopil' : UA
+Dnipropetrovs'k : UA
+Cherkasy : UA
+Kirovohrad : UA
+Siliana : TN
+Sidi Bou Zid : TN
+Kairouan : TN
+Zaghouan : TN
+Bern : CH
+Lucerne : CH
+Zug : CH
+Uri : CH
+Schwyz : CH
+Glarus : CH
+Nidwalden : CH
+Fribourg : CH
+Obwalden : CH
+Pesnica : SI
+Duplek : SI
+Miklavž na Dravskem polju : SI
+Hoce-Slivnica : SI
+Lenart : SI
+Sveta Ana : SI
+Lovrenc na Pohorju : SI
+Ribnica na Pohorju : SI
+Slovenj Gradec : SI
+Vuzenica : SI
+Chimbu : PG
+Enga : PG
+Western Highlands : PG
+Southern Highlands : PG
+Eastern Highlands : PG
+Criuleni : MD
+Străşeni : MD
+Anenii Noi : MD
+Orhei : MD
+Transnistria : MD
+Chişinău : MD
+Teleneşti : MD
+Şoldăneşti : MD
+Floreşti : MD
+Rezina : MD
+Ialoveni : MD
+Bolu : TR
+Ankara : TR
+Bilecik : TR
+Eskisehir : TR
+Çankiri : TR
+Karabük : TR
+Jharkhand : IN
+Delhi : IN
+Dadra and Nagar Haveli : IN
+Chandigarh : IN
+Madhya Pradesh : IN
+Utah : US
+Wyoming : US
+Nevada : US
+Colorado : US
+South Dakota : US
+Nebraska : US
+Kansas : US
+Oklahoma : US
+Iowa : US
+Missouri : US
+Arima : TT
+Khon Kaen : TH
+Sakon Nakhon : TH
+Suphan Buri : TH
+Sing Buri : TH
+Chai Nat : TH
+Ang Thong : TH
+Saraburi : TH
+Nakhon Ratchasima : TH
+Nakhon Nayok : TH
+Pathum Thani : TH
+Uthai Thani : TH
+Kalasin : TH
+Roi Et : TH
+Maha Sarakham : TH
+Nong Bua Lam Phu : TH
+Lop Buri : TH
+Udon Thani : TH
+Phra Nakhon Si Ayutthaya : TH
+Nonthaburi : TH
+Nakhon Pathom : TH
+Kamphaeng Phet : TH
+Lampang : TH
+Sukhothai : TH
+Nakhon Sawan : TH
+Phetchabun : TH
+Phichit : TH
+Chaiyaphum : TH
+Phrae : TH
+Lamphun : TH
+Prachin Buri : TH
+Yasothon : TH
+Ermera : TL
+Aileu : TL
+Nantou : TW
+Tokat : TR
+Sivas : TR
+Çorum : TR
+Amasya : TR
+Morogoro : TZ
+Dodoma : TZ
+Manyara : TZ
+Semnan : IR
+Zanjan : IR
+Qazvin : IR
+Taipei City : TW
+Chiayi City : TW
+Hamah : SY
+Preddvor : SI
+Šenčur : SI
+Cerklje na Gorenjskem : SI
+Kamnik : SI
+Medvode : SI
+Kranj : SI
+Škofja Loka : SI
+Železniki : SI
+Bohinj : SI
+Naklo : SI
+Radovljica : SI
+Šoštanj : SI
+Ljubno : SI
+Luce : SI
+Lukovica : SI
+Benedikt : SI
+Laško : SI
+Dobje : SI
+Ruše : SI
+Vodice : SI
+Komenda : SI
+Mengeš : SI
+Vrhnika : SI
+Horjul : SI
+Cerkvenjak : SI
+Trzin : SI
+Puconci : SI
+Grad : SI
+Murska Sobota : SI
+Sveti Andraž v Slovenskih Goricah : SI
+Brezovica : SI
+Dobrova-Polhov Gradec : SI
+Gorenja vas-Poljane : SI
+Logatec : SI
+Trnovska vas : SI
+Destrnik : SI
+Race-Fram : SI
+Starše : SI
+Vransko : SI
+Velenje : SI
+Polzela : SI
+Šmartno ob Paki : SI
+Mozirje : SI
+Vitanje : SI
+Vojnik : SI
+Zrece : SI
+Mislinja : SI
+Zasavska : SI
+Litija : SI
+Gornji Grad : SI
+Cerknica : SI
+Velike Lašče : SI
+Borovnica : SI
+Postojna : SI
+Pivka : SI
+Dobrna : SI
+Celje : SI
+Nazarje : SI
+Domžale : SI
+Ivancna Gorica : SI
+Ljubljana : SI
+Šmartno in Litiji : SI
+Ig : SI
+Dol pri Ljubljani : SI
+Prebold : SI
+Moravce : SI
+Appenzell Ausserrhoden : CH
+Appenzell Innerrhoden : CH
+Västmanland : SE
+Jönköping : SE
+Orebro : SE
+Kronoberg : SE
+Para : SR
+Brokopondo : SR
+Gezira : SD
+Khartoum : SD
+North Kordufan : SD
+Lakes : SS
+Warrap : SS
+Zaragoza : ES
+La Rioja : ES
+Álava : ES
+Albacete : ES
+Teruel : ES
+Cuenca : ES
+Toledo : ES
+León : ES
+Soria : ES
+Burgos : ES
+Ávila : ES
+Gauteng : ZA
+Dobrepolje : SI
+Radece : SI
+Štore : SI
+Slovenske Konjice : SI
+Žiri : SI
+Oplotnica : SI
+Cerkno : SI
+Bled : SI
+Ajdovščina : SI
+Divaca : SI
+Idrija : SI
+Vipava : SI
+Bloke : SI
+Šentjur pri Celju : SI
+Kozje : SI
+Šmarje pri Jelšah : SI
+Sevnica : SI
+Mirna Pec : SI
+Trebnje : SI
+Žužemberk : SI
+Turnišče : SI
+Radenci : SI
+Sveti Jurij : SI
+Velika Polana : SI
+Beltinci : SI
+Veržej : SI
+Odranci : SI
+Diourbel : SN
+Ar Riyad : SA
+Al Quassim : SA
+Ha'il : SA
+Al Bahah : SA
+Cluj : RO
+Bistrita-Nasaud : RO
+Salaj : RO
+Dâmbovita : RO
+Ilfov : RO
+Arges : RO
+Gorj : RO
+Hunedoara : RO
+Vâlcea : RO
+Prahova : RO
+Covasna : RO
+Vrancea : RO
+Buzau : RO
+Brasov : RO
+Sibiu : RO
+Mures : RO
+Harghita : RO
+Neamt : RO
+Bacau : RO
+Alba : RO
+Grosuplje : SI
+Škofljica : SI
+Hrastnik : SI
+Žalec : SI
+Trbovlje : SI
+Braslovce : SI
+Tabor : SI
+Krsko : SI
+Hajdina : SI
+Ptuj : SI
+Majšperk : SI
+Slovenska Bistrica : SI
+Markovci : SI
+Kidricevo : SI
+Dornava : SI
+Križevci : SI
+Juršinci : SI
+Semic : SI
+Dolenjske Toplice : SI
+Sodražica : SI
+Ribnica : SI
+Škocjan : SI
+Nišavski : RS
+Pomoravski : RS
+Šumadijski : RS
+Moravicki : RS
+Kolubarski : RS
+Oppland : NO
+Kuala Lumpur : MY
+Putrajaya : MY
+Dowa : MW
+Balaka : MW
+Chiradzulu : MW
+Blantyre : MW
+Ntchisi : MW
+Kauno : LT
+Valverde : DO
+Santiago Rodríguez : DO
+La Vega : DO
+Hermanas : DO
+Duarte : DO
+Santiago : DO
+Bahoruco : DO
+San Juan : DO
+Naxçıvan : AZ
+Şuşa : AZ
+Xocalı : AZ
+Şuşa : AZ
+Ağdam : AZ
+Tərtər : AZ
+Goranboy : AZ
+Xocavənd : AZ
+Hajigabul : AZ
+Abşeron : AZ
+Xanlar : AZ
+Kürdəmir : AZ
+Zərdab : AZ
+Sabirabad : AZ
+Shirvan : AZ
+Kamuli : UG
+Luuka : UG
+Buyende : UG
+Jinja : UG
+Apac : UG
+Nakasongola : UG
+Masindi : UG
+Kayunga : UG
+Luweero : UG
+Amolatar : UG
+Mityana : UG
+Kiboga : UG
+Mpigi : UG
+Butambala : UG
+Gomba : UG
+Wakiso : UG
+Nakaseke : UG
+Kyankwanzi : UG
+Kaberamaido : UG
+Dokolo : UG
+Kyenjojo : UG
+Kamwenge : UG
+Kyegegwa : UG
+Sembabule : UG
+Kibale : UG
+Mubende : UG
+Braila : RO
+Ialomita : RO
+Umm Salal : QA
+Viseu : PT
+Agusan del Sur : PH
+Bukidnon : PH
+Cotabato : PH
+South Cotabato : PH
+Cusco : PE
+Ayacucho : PE
+Apurímac : PE
+Huancavelica : PE
+San Martín : PE
+Huánuco : PE
+Pasco : PE
+Junín : PE
+San Pedro : PY
+Caaguazú : PY
+Cordillera : PY
+Caazapá : PY
+Paraguarí : PY
+Guairá : PY
+F.C.T. : PK
+Matagalpa : NI
+Boaco : NI
+Chontales : NI
+Estelí : NI
+Granada : NI
+Masaya : NI
+Flevoland : NL
+Utrecht : NL
+Fès - Boulemane : MA
+Tadla - Azilal : MA
+Mojkovac : ME
+Cetinje : ME
+Šavnik : ME
+Kolašin : ME
+Danilovgrad : ME
+Călărași : MD
+Drochia : MD
+Sîngerei : MD
+Bălţi : MD
+Analamanga : MG
+Betsiboka : MG
+Bongolava : MG
+Vakinankaratra : MG
+Amoron'i Mania : MG
+Alaotra-Mangoro : MG
+Smiltenes : LV
+Balvu : LV
+Strencu : LV
+Beverinas : LV
+Burtnieku : LV
+Kocenu : LV
+Rezeknes : LV
+Vecpiebalgas : LV
+Raunas : LV
+Priekulu : LV
+Pargaujas : LV
+Krimuldas : LV
+Gulbene : LV
+Rugaju : LV
+Jaunpiebalgas : LV
+Aglonas : LV
+Riebinu : LV
+Vilanu : LV
+Babites : LV
+Garkalnes : LV
+Kekavas : LV
+Marupes : LV
+Olaines : LV
+Salaspils : LV
+Stopinu : LV
+Sejas : LV
+Malpils : LV
+Siguldas : LV
+Madona : LV
+Lubanas : LV
+Varaklanu : LV
+Amatas : LV
+Erglu : LV
+Cesvaines : LV
+Ogre : LV
+Ropazu : LV
+Ikskiles : LV
+Baldones : LV
+Keguma : LV
+Iecavas : LV
+Plavinu : LV
+Kokneses : LV
+Aizkraukles : LV
+Skriveru : LV
+Lielvardes : LV
+Jaunjelgavas : LV
+Preilu : LV
+Livanu : LV
+Varkavas : LV
+Jekabpils : LV
+Krustpils : LV
+Salas : LV
+Aizputes : LV
+Kuldigas : LV
+Alsungas : LV
+Skrundas : LV
+Kandavas : LV
+Tukums : LV
+Dobele : LV
+Jaunpils : LV
+Brocenu : LV
+Ozolnieku : LV
+Bishkek : KG
+Al Farwaniyah : KW
+Orahovac : XK
+Srbica : XK
+Klina : XK
+Kosovska Mitrovica : XK
+Glogovac : XK
+Mališevo : XK
+Nairobi : KE
+Central : KE
+Ajlun : JO
+Jarash : JO
+Gunma : JP
+Nagano : JP
+Tochigi : JP
+Gifu : JP
+Shiga : JP
+Saitama : JP
+Yamanashi : JP
+Nara : JP
+Haut-Sassandra : CI
+Agnéby : CI
+N'zi-Comoé : CI
+Marahoué : CI
+Fromager : CI
+Vallée du Bandama : CI
+Lacs : CI
+Worodougou : CI
+Kildare : IE
+Carlow : IE
+Laoighis : IE
+South Dublin : IE
+Offaly : IE
+Westmeath : IE
+Longford : IE
+Roscommon : IE
+North Tipperary : IE
+South Tipperary : IE
+Waterford : IE
+Limerick : IE
+Comayagua : HN
+Yoro : HN
+Francisco Morazán : HN
+Kissidougou : GN
+Kérouané : GN
+Télimélé : GN
+Lélouma : GN
+Dalaba : GN
+Labé : GN
+Pita : GN
+Kouroussa : GN
+Fria : GN
+Chimaltenango : GT
+Sacatepéquez : GT
+Guatemala : GT
+Jalapa : GT
+El Progreso : GT
+Sololá : GT
+Quezaltenango : GT
+Baja Verapaz : GT
+Totonicapán : GT
+Ashanti : GH
+Eastern : GH
+Hessen : DE
+Thüringen : DE
+Sachsen-Anhalt : DE
+Berlin : DE
+Moyen-Ogooué : GA
+Rapla : EE
+Järva : EE
+Anseba : ER
+Cuscatlán : SV
+San Salvador : SV
+Al Qahirah : EG
+Al Jizah : EG
+Al Minya : EG
+Al Fayyum : EG
+Bani Suwayf : EG
+Al Minufiyah : EG
+Al Qalyubiyah : EG
+Al Gharbiyah : EG
+Suhaj : EG
+Qina : EG
+Asyut : EG
+Azuay : EC
+Cañar : EC
+Napo : EC
+Tungurahua : EC
+Chimborazo : EC
+Bolivar : EC
+Imbabura : EC
+Cotopaxi : EC
+Los Rios : EC
+Pichincha : EC
+Santo Domingo de los Tsáchilas : EC
+Monseñor Nouel : DO
+Sánchez Ramírez : DO
+San José de Ocoa : DO
+Monte Plata : DO
+Bjelovarsko-bilogorska : HR
+Grad Zagreb : HR
+Brodsko-Posavska : HR
+San José : CR
+Cartago : CR
+Caquetá : CO
+Huila : CO
+Guaviare : CO
+Caldas : CO
+Casanare : CO
+Meta : CO
+Bogota : CO
+Santander : CO
+Tolima : CO
+Quindío : CO
+Cundinamarca : CO
+Risaralda : CO
+Beijing : CN
+Kasaï-Oriental : CD
+Maniema : CD
+Sichuan : CN
+Chongqing : CN
+Guizhou : CN
+Hunan : CN
+Ningxia : CN
+Shaanxi : CN
+Qinghai : CN
+Shanxi : CN
+Jiangxi : CN
+Henan : CN
+Hubei : CN
+Anhui : CN
+Barh El Gazel : TD
+Tandjilé : TD
+Logone Occidental : TD
+Guéra : TD
+Batha : TD
+Ouest : CM
+Centre : CM
+Kâmpóng Chhnang : KH
+Kâmpóng Thum : KH
+Kâmpóng Spœ : KH
+Phnom Penh : KH
+Goiás : BR
+Distrito Federal : BR
+Minas Gerais : BR
+Tocantins : BR
+Kweneng : BW
+Gaborone : BW
+Jwaneng : BW
+Cochabamba : BO
+Chirang : BT
+Wangdi Phodrang : BT
+Daga : BT
+Punakha : BT
+Mongar : BT
+Tongsa : BT
+Pemagatsel : BT
+Minsk : BY
+Saint George : BB
+Saint Thomas : BB
+Saatlı : AZ
+Bərdə : AZ
+Şəmkir : AZ
+Ağsu : AZ
+Nana-Grébizi : CF
+Şamaxı : AZ
+Quba : AZ
+Ucar : AZ
+Qobustan : AZ
+İsmayıllı : AZ
+Yevlakh Rayon : AZ
+Gəncə : AZ
+Mingəçevir : AZ
+Göyçay : AZ
+Ağdaş : AZ
+Ağcabədi : AZ
+Australian Capital Territory : AU
+Wien : AT
+Kotayk : AM
+Erevan : AM
+Santa Fe : AR
+Tucumán : AR
+Santiago del Estero : AR
+San Luis : AR
+La Pampa : AR
+Córdoba : AR
+Bié : AO
+Cuanza Norte : AO
+Huíla : AO
+Huambo : AO
+Sétif : DZ
+Bordj Bou Arréridj : DZ
+Bouira : DZ
+Blida : DZ
+Tissemsilt : DZ
+Aïn Defla : DZ
+Relizane : DZ
+El Bayadh : DZ
+Saïda : DZ
+Sidi Bel Abbès : DZ
+Mascara : DZ
+Ghardaïa : DZ
+Laghouat : DZ
+Médéa : DZ
+Tiaret : DZ
+M'Sila : DZ
+Batna : DZ
+Khenchela : DZ
+Guelma : DZ
+Constantine : DZ
+Mila : DZ
+Oum el Bouaghi : DZ
+Biskra : DZ
+Djelfa : DZ
+Berat : AL
+Uruzgan : AF
+Ghazni : AF
+Parwan : AF
+Kabul : AF
+Laghman : AF
+Logar : AF
+Kapisa : AF
+Wardak : AF
+Bamyan : AF
+Parwan : AF
+Sari Pul : AF
+Ghor : AF
+Baghlan : AF
+Samangan : AF
+Uruzgan : AF
+Caerphilly : GB
+Rhondda, Cynon, Taff : GB
+Blaenau Gwent : GB
+Oyam : UG
+Lira : UG
+Kole : UG
+Pader : UG
+Ibanda : UG
+Mbarara : UG
+Gulu : UG
+Kiryandongo : UG
+Iganga : UG
+Lwengo : UG
+Bukomansimbi : UG
+Kalungu : UG
+Kampala : UG
+Kaliro : UG
+Agago : UG
+Kotido : UG
+Abim : UG
+Otuke : UG
+Alebtong : UG
+Amuria : UG
+Katakwi : UG
+Serere : UG
+Soroti : UG
+Pallisa : UG
+Mbarara : UG
+Lyantonde : UG
+Masaka : UG
+Torfaen : GB
+Merthyr Tydfil : GB
+North Lanarkshire : GB
+East Dunbartonshire : GB
+Glasgow : GB
+East Renfrewshire : GB
+East Ayrshire : GB
+South Lanarkshire : GB
+Magherafelt : GB
+Omagh : GB
+Mid Ulster : GB
+Craigavon : GB
+Banbridge : GB
+Antrim : GB
+Lisburn : GB
+Ballymoney : GB
+Ballymena : GB
+Castlereagh : GB
+Wandsworth : GB
+Merton : GB
+Westminster : GB
+Kensington and Chelsea : GB
+Hounslow : GB
+Ealing : GB
+Hammersmith and Fulham : GB
+Stockton-on-Tees : GB
+Darlington : GB
+Middlesbrough : GB
+Richmond upon Thames : GB
+City : GB
+Tower Hamlets : GB
+Gateshead : GB
+Newcastle upon Tyne : GB
+York : GB
+Merseyside : GB
+Enfield : GB
+Hertfordshire : GB
+Barnet : GB
+Waltham Forest : GB
+Redbridge : GB
+Havering : GB
+Cambridgeshire : GB
+Bexley : GB
+Sutton : GB
+Milton Keynes : GB
+Buckinghamshire : GB
+Hillingdon : GB
+Brent : GB
+Luton : GB
+Harrow : GB
+Central Bedfordshire : GB
+Bedford : GB
+Rutland : GB
+Nottinghamshire : GB
+Northamptonshire : GB
+Camden : GB
+Islington : GB
+Peterborough : GB
+Lambeth : GB
+Southwark : GB
+Doncaster : GB
+Croydon : GB
+Lewisham : GB
+Haringey : GB
+Kingston upon Thames : GB
+Newham : GB
+Greenwich : GB
+Hackney : GB
+Barking and Dagenham : GB
+Leicestershire : GB
+Cheshire East : GB
+Derbyshire : GB
+Rotherham : GB
+Sheffield : GB
+Stoke-on-Trent : GB
+Telford and Wrekin : GB
+Staffordshire : GB
+Bromley : GB
+Worcestershire : GB
+Warwickshire : GB
+Oxfordshire : GB
+Wigan : GB
+Stockport : GB
+Warrington : GB
+West Berkshire : GB
+Wokingham : GB
+Bracknell Forest : GB
+Royal Borough of Windsor and Maidenhead : GB
+Slough : GB
+Reading : GB
+Surrey : GB
+Blackburn with Darwen : GB
+Swindon : GB
+Bath and North East Somerset : GB
+Wiltshire : GB
+Calderdale : GB
+Kirklees : GB
+Nottingham : GB
+Leicester : GB
+Derby : GB
+Mukono : UG
+Buikwe : UG
+Nakapiripirit : UG
+Kween : UG
+Buhweju : UG
+Sheema : UG
+Mitooma : UG
+Bushenyi : UG
+Bulambuli : UG
+Sironko : UG
+Bugiri : UG
+Nwoya : UG
+Mbale : UG
+Budaka : UG
+Butaleja : UG
+Kibuku : UG
+Napak : UG
+Kumi : UG
+Ngora : UG
+Bukedea : UG
+Namutumba : UG
+Kütahya : TR
+Konya : TR
+Karaman : TR
+Nigde : TR
+Kayseri : TR
+Isparta : TR
+Manisa : TR
+Denizli : TR
+Burdur : TR
+Aksaray : TR
+Nevsehir : TR
+Yozgat : TR
+Kirsehir : TR
+Usak : TR
+Erzincan : TR
+Tunceli : TR
+Afyonkarahisar : TR
+Kinkkale : TR
+K. Maras : TR
+Mus : TR
+Erzurum : TR
+Malatya : TR
+Elazig : TR
+Bitlis : TR
+Bingöl : TR
+Abia : NG
+Ebonyi : NG
+Anambra : NG
+Edo : NG
+Bauchi : NG
+Plateau : NG
+Nassarawa : NG
+Gombe : NG
+Enugu : NG
+Kogi : NG
+Osun : NG
+Imo : NG
+Osmaniye : TR
+Adiyaman : TR
+Diyarbakir : TR
+Batman : TR
+Siirt : TR
+Bayburt : TR
+Gümüshane : TR
+Singida : TZ
+Tabora : TZ
+Iringa : TZ
+Mwanza : TZ
+Simiyu : TZ
+Geita : TZ
+Shinyanga : TZ
+Ratnapura : LK
+Mŏṇarāgala : LK
+Kægalla : LK
+Badulla : LK
+Mātale : LK
+Pŏḷŏnnaruva : LK
+Kuruṇægala : LK
+Anurādhapura : LK
+Nuvara Ĕliya : LK
+Vavuniyāva : LK
+Mahanuvara : LK
+Bay : SO
+Bashkortostan : RU
+Sverdlovsk : RU
+Khanty-Mansiy : RU
+Lipetsk : RU
+Tambov : RU
+Tomsk : RU
+Tatarstan : RU
+Ul'yanovsk : RU
+Penza : RU
+Kemerovo : RU
+Orel : RU
+Irkutsk : RU
+Khakass : RU
+Mordovia : RU
+Kaluga : RU
+Kostroma : RU
+Yaroslavl' : RU
+Vladimir : RU
+Ryazan' : RU
+Ivanovo : RU
+Nizhegorod : RU
+Tula : RU
+Seoul : KR
+Daejeon : KR
+Sejong : KR
+North Chungcheong : KR
+Gwangju : KR
+Daegu : KR
+Chuvash : RU
+Vologda : RU
+Novgorod : RU
+Tver' : RU
+Moskovsskaya : RU
+Moskva : RU
+Mariy-El : RU
+Kirov : RU
+Udmurt : RU
+Komi : RU
+Perm' : RU
+Samara : RU
+Stavropol' : RU
+Adygey : RU
+Masovian : PL
+Łódź : PL
+Kuyavian-Pomeranian : PL
+Greater Poland : PL
+Świętokrzyskie : PL
+Muntinlupa : PH
+Caloocan : PH
+Malabon : PH
+Valenzuela : PH
+Quezon City : PH
+Nueva Ecija : PH
+Laguna : PH
+Rizal : PH
+Taguig : PH
+Marikina : PH
+Pasig : PH
+Quirino : PH
+Santiago : PH
+Nueva Vizcaya : PH
+Benguet : PH
+Ifugao : PH
+Mountain Province : PH
+Tarlac : PH
+Apayao : PH
+Kalinga : PH
+Abra : PH
+Ad Dakhliyah : OM
+Ekiti : NG
+Kaduna : NG
+Kano : NG
+Federal Capital Territory : NG
+P'yŏngyang : KP
+Khomas : NA
+Oshana : NA
+Oshikoto : NA
+Darhan-Uul : MN
+Töv : MN
+Arhangay : MN
+Orhon : MN
+Dundgovi : MN
+Övörhangay : MN
+Govĭ-Sümber : MN
+México : MX
+Puebla : MX
+Morelos : MX
+Querétaro : MX
+Hidalgo : MX
+Guanajuato : MX
+San Luis Potosí : MX
+Zacatecas : MX
+Aguascalientes : MX
+Durango : MX
+Ulaanbaatar : MN
+Tlaxcala : MX
+Distrito Federal : MX
+Tagant : MR
+Želino : MK
+Brvenica : MK
+Brod : MK
+Oslomej : MK
+Sopište : MK
+Karpoš : MK
+Šuto Orizari : MK
+Butel : MK
+Čair : MK
+Centar : MK
+Zajas : MK
+Dolneni : MK
+Krivogaštani : MK
+Mogila : MK
+Čaška : MK
+Rosoman : MK
+Negotino : MK
+Drugovo : MK
+Gazi Baba : MK
+Kruševo : MK
+Demir Hisar : MK
+Aerodrom : MK
+Studeničani : MK
+Kisela Voda : MK
+Probištip : MK
+Češinovo-Obleševo : MK
+Aračinovo : MK
+Zelenikovo : MK
+Kičevo : MK
+Plasnica : MK
+Vraneštica : MK
+Skopje : MK
+Lozovo : MK
+Sveti Nikole : MK
+Gradsko : MK
+Kratovo : MK
+Ilinden : MK
+Karbinci : MK
+Štip : MK
+Kočani : MK
+Zrnovci : MK
+Veles : MK
+Demir Kapija : MK
+Vinica : MK
+Bosilovo : MK
+Radoviš : MK
+Vasilevo : MK
+Konče : MK
+Al Jifarah : LY
+Mizdah : LY
+Al Jufrah : LY
+Sabha : LY
+Wadi al Hayaa : LY
+Aqmola : KZ
+Qaraghandy : KZ
+Baghdad : IQ
+Babil : IQ
+Al-Qādisiyyah : IQ
+Dhi-Qar : IQ
+Karbala' : IQ
+Markazi : IR
+Esfahan : IR
+Chahar Mahall and Bakhtiari : IR
+Kohgiluyeh and Buyer Ahmad : IR
+Fars : IR
+Kerman : IR
+Hamadan : IR
+Lorestan : IR
+Yazd : IR
+Qom : IR
+Tehran : IR
+Alborz : IR
+Chhattisgarh : IN
+Haryana : IN
+Jász-Nagykun-Szolnok : HU
+Fejér : HU
+Veszprém : HU
+Tolna : HU
+Szolnok : HU
+Budapest : HU
+Érd : HU
+Heves : HU
+Eger : HU
+Miskolc : HU
+Hódmezôvásárhely : HU
+Dunaújváros : HU
+Kecskemét : HU
+Tatabánya : HU
+Tbilisi : GE
+Imereti : GE
+Northern Savonia : FI
+Southern Savonia : FI
+Central Finland : FI
+Southern Ostrobothnia : FI
+Pirkanmaa : FI
+Tavastia Proper : FI
+Päijät-Häme : FI
+Dire Dawa : ET
+Addis Ababa : ET
+Harari People : ET
+Gitega : BI
+Muramvya : BI
+Mwaro : BI
+Karuzi : BI
+Balé : BF
+Sanguié : BF
+Tuy : BF
+Bougouriba : BF
+Mou Houn : BF
+Kouritenga : BF
+Ganzourgou : BF
+Zoundwéogo : BF
+Ziro : BF
+Boulkiemdé : BF
+Kadiogo : BF
+Oubritenga : BF
+Gourma : BF
+Gnagna : BF
+Bazéga : BF
+Kourwéogo : BF
+Nayala : BF
+Passoré : BF
+Zondoma : BF
+Namentenga : BF
+Sanmatenga : BF
+Bam : BF
+Magway : MM
+Mandalay : MM
+Plovdiv : BG
+Stara Zagora : BG
+Sliven : BG
+Shumen : BG
+Razgrad : BG
+Targovishte : BG
+Gabrovo : BG
+Pazardzhik : BG
+Lovech : BG
+Grad Sofiya : BG
+Kigali City : RW
+Amanat Al Asimah : YE
+Wisconsin : US
+Illinois : US
+Kentucky : US
+Arkansas : US
+Tennessee : US
+West Virginia : US
+Indiana : US
+Vysočina : CZ
+Středočeský : CZ
+Prague : CZ
+City of Minsk : BY
+Kiev City : UA
+Tashkent : UZ
+Almaty City : KZ
+Astana : KZ
+Stepanakert : AZ
+Damascus : SY
+Bucharest : RO
+Jelgava : LV
+Daugavpils : LV
+Rezekne : LV
+Niamey : NE
+Bamako : ML
+Andorra la Vella : AD
+Gyôr : HU
+Szombathely : HU
+Zalaegerszeg : HU
+Nagykanizsa : HU
+Veszprém : HU
+Kaposvár : HU
+Pécs : HU
+Szekszárd : HU
+Székesfehérvár : HU
+Békéscsaba : HU
+Debrecen : HU
+Nyíregyháza : HU
+Buada : NR
+São Salvador do Mundo : CV
+São Lourenço dos Órgãos : CV
+George Hill : AI
+The Quarter : AI
+Yevlakh : AZ
+City of Saint George : BM
+Wong Tai Sin : HK
+Moka : MU
+Plaines Wilhems : MU
+Beau Bassin-Rose Hill : MU
+Port Louis : MU
+Quatre Bornes : MU
+Vacoas-Phoenix : MU
+Curepipe : MU
+Mont Buxton : SC
+Saint Louis : SC
+Les Mamelles : SC
+Enna : IT
+Benevento : IT
+Asti : IT
+Bergamo : IT
+Brescia : IT
+Cremona : IT
+Mantova : IT
+Milano : IT
+Lecco : IT
+Monza e Brianza : IT
+Lodi : IT
+Siena : IT
+Arezzo : IT
+Firenze : IT
+Vercelli : IT
+Pavia : IT
+Rieti : IT
+Novara : IT
+Alessandria : IT
+Trento : IT
+Vicenza : IT
+Verona : IT
+Treviso : IT
+Piacenza : IT
+Parma : IT
+Reggio Emilia : IT
+Modena : IT
+Bologna : IT
+Pistoia : IT
+Terni : IT
+Perugia : IT
+Frosinone : IT
+Avellino : IT
+L'Aquila : IT
+Pordenone : IT
+Isernia : IT
+Biella : IT
+Prato : IT
+Gers : FR
+Haute-Vienne : FR
+Corrèze : FR
+Tarn-et-Garonne : FR
+Tarn : FR
+Isère : FR
+Drôme : FR
+Aveyron : FR
+Lot : FR
+Indre-et-Loire : FR
+Indre : FR
+Loir-et-Cher : FR
+Creuse : FR
+Mayenne : FR
+Sarthe : FR
+Vaucluse : FR
+Haute-Marne : FR
+Marne : FR
+Dordogne : FR
+Rhône : FR
+Vosges : FR
+Ardèche : FR
+Loire : FR
+Puy-de-Dôme : FR
+Allier : FR
+Loiret : FR
+Maine-et-Loire : FR
+Aube : FR
+Paris : FR
+Hauts-de-Seine : FR
+Seine-Saint-Denis : FR
+Val-d'Oise : FR
+Yvelines : FR
+Charente : FR
+Cher : FR
+Eure-et-Loir : FR
+Haute-Loire : FR
+Cantal : FR
+Lot-et-Garonne : FR
+Lozère : FR
+Nièvre : FR
+Côte-d'Or : FR
+Oise : FR
+Orne : FR
+Haute-Saône : FR
+Saône-et-Loire : FR
+Deux-Sèvres : FR
+Vienne : FR
+Yonne : FR
+Essonne : FR
+Seien-et-Marne : FR
+Val-de-Marne : FR
+Dushanbe : TJ
+Luxor : EG
+Francistown : BW
+Lobatse : BW
+Selebi-Phikwe : BW
+Sowa : BW
+Naga : PH
+Angeles : PH
+Baguio : PH
+Makati : PH
+Pateros : PH
+Mandaluyong City : PH
+San Juan : PH
+Naftalan : AZ
+Şəki : AZ
+Leeds : GB
+Bradford : GB
+Wakefield : GB
+Barnsley : GB
+Salford : GB
+Bolton : GB
+Trafford : GB
+Manchester : GB
+Oldham : GB
+Rochdale : GB
+Tameside : GB
+Bury : GB
+Solihull : GB
+Coventry : GB
+Birmingham : GB
+Sandwell : GB
+Dudley : GB
+Walsall : GB
+Wolverhampton : GB
+Durbes : LV
+Incukalna : LV
+Ādaži : LV
+Valmiera : LV
+Cesu : LV
+Ligatnes : LV
+Jekabpils : LV
+Palencia : ES
+Ciudad Real : ES
+Córdoba : ES
+Guadalajara : ES
+Jaén : ES
+Madrid : ES
+Segovia : ES
+Valladolid : ES
+Ihorombe : MG
+Haute Matsiatra : MG
+Itasy : MG
+Suva Reka : XK
+Uroševac : XK
+Novo Brdo : XK
+Obilić : XK
+Kosovo Polje : XK
+Lipljan : XK
+Štimlje : XK
+Vučitrn : XK
+Victoria : MT
+Fontana, Gozo : MT
+Xewkija : MT
+Mosta : MT
+Lija : MT
+Attard : MT
+Mtarfa : MT
+Mdina : MT
+Żebbuġ : MT
+Qormi : MT
+Swieqi : MT
+Għargħur : MT
+San Ġwann : MT
+Iklin : MT
+Birkirkara : MT
+Balzan : MT
+Santa Venera : MT
+Ħamrun : MT
+Marsa : MT
+Luqa : MT
+Mqabba : MT
+Kirkop : MT
+Safi : MT
+Għaxaq : MT
+Żejtun : MT
+Fgura : MT
+Tarxien : MT
+Santa Luċija : MT
+Gudja : MT
+Paola : MT
+Gżira : MT
+Floriana : MT
+Ta' Xbiex : MT
+Isla : MT
+Cospicua : MT
+Pietà : MT
+Msida : MT
+Birgu : MT
