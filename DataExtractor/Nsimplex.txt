@@ -1,0 +1,255 @@
+Indonesia : ID
+Malaysia : MY
+Chile : CL
+Bolivia : BO
+Peru : PE
+Argentina : AR
+Dhekelia : -9
+Cyprus : CY
+India : IN
+China : CN
+Israel : IL
+Palestine : PS
+Lebanon : LB
+Ethiopia : ET
+S. Sudan : SS
+Somalia : SO
+Kenya : KE
+Pakistan : PK
+Malawi : MW
+Tanzania : TZ
+Syria : SY
+Somaliland : -9
+France : -9
+Suriname : SR
+Guyana : GY
+South Korea : KR
+North Korea : KP
+Morocco : MA
+W. Sahara : EH
+Costa Rica : CR
+Nicaragua : NI
+Congo : CG
+Dem. Rep. Congo : CD
+Bhutan : BT
+Ukraine : UA
+Belarus : BY
+Namibia : NA
+South Africa : ZA
+St-Martin : MF
+Sint Maarten : SX
+Oman : OM
+Uzbekistan : UZ
+Kazakhstan : KZ
+Tajikistan : TJ
+Lithuania : LT
+Brazil : BR
+Uruguay : UY
+Mongolia : MN
+ : RU
+Czechia : CZ
+Germany : DE
+Estonia : EE
+Latvia : LV
+Norway : -9
+Sweden : SE
+Finland : FI
+Vietnam : VN
+Cambodia : KH
+Luxembourg : LU
+United Arab Emirates : AE
+Belgium : BE
+Georgia : GE
+Macedonia : MK
+Albania : AL
+Azerbaijan : AZ
+Kosovo : XK
+Turkey : TR
+Spain : ES
+Laos : LA
+Kyrgyzstan : KG
+Armenia : AM
+Denmark : DK
+Libya : LY
+Tunisia : TN
+Romania : RO
+Hungary : HU
+Slovakia : SK
+Poland : PL
+Ireland : IE
+United Kingdom : GB
+Greece : GR
+Zambia : ZM
+Sierra Leone : SL
+Guinea : GN
+Liberia : LR
+Central African Rep. : CF
+Sudan : SD
+Djibouti : DJ
+Eritrea : ER
+Austria : AT
+Iraq : IQ
+Italy : IT
+Switzerland : CH
+Iran : IR
+Netherlands : NL
+Liechtenstein : LI
+Côte d'Ivoire : CI
+Serbia : RS
+Mali : ML
+Senegal : SN
+Nigeria : NG
+Benin : BJ
+Angola : AO
+Croatia : HR
+Slovenia : SI
+Qatar : QA
+Saudi Arabia : SA
+Botswana : BW
+Zimbabwe : ZW
+Bulgaria : BG
+Thailand : TH
+San Marino : SM
+Haiti : HT
+Dominican Rep. : DO
+Chad : TD
+Kuwait : KW
+El Salvador : SV
+Guatemala : GT
+Timor-Leste : TL
+Brunei : BN
+Monaco : MC
+Algeria : DZ
+Mozambique : MZ
+eSwatini : SZ
+Burundi : BI
+Rwanda : RW
+Myanmar : MM
+Bangladesh : BD
+Andorra : AD
+Afghanistan : AF
+Montenegro : ME
+Bosnia and Herz. : BA
+Uganda : UG
+USNB Guantanamo Bay : -9
+Cuba : CU
+Honduras : HN
+Ecuador : EC
+Colombia : CO
+Paraguay : PY
+Portugal : PT
+Moldova : MD
+Turkmenistan : TM
+Jordan : JO
+Nepal : NP
+Lesotho : LS
+Cameroon : CM
+Gabon : GA
+Niger : NE
+Burkina Faso : BF
+Togo : TG
+Ghana : GH
+Guinea-Bissau : GW
+Gibraltar : GI
+United States of America : US
+Canada : CA
+Mexico : MX
+Belize : BZ
+Panama : PA
+Venezuela : VE
+Papua New Guinea : PG
+Egypt : EG
+Yemen : YE
+Mauritania : MR
+Eq. Guinea : GQ
+Gambia : GM
+Hong Kong : HK
+Vatican : VA
+N. Cyprus : -9
+Cyprus U.N. Buffer Zone : -9
+Siachen Glacier : -9
+Baikonur : -9
+Akrotiri : -9
+Antarctica : AQ
+Australia : AU
+Greenland : GL
+Fiji : FJ
+New Zealand : NZ
+New Caledonia : NC
+Madagascar : MG
+Philippines : PH
+Sri Lanka : LK
+Curaçao : CW
+Aruba : AW
+Bahamas : BS
+Turks and Caicos Is. : TC
+Taiwan : TW
+Japan : JP
+St. Pierre and Miquelon : PM
+Iceland : IS
+Pitcairn Is. : PN
+Fr. Polynesia : PF
+Fr. S. Antarctic Lands : TF
+Seychelles : SC
+Kiribati : KI
+Marshall Is. : MH
+Trinidad and Tobago : TT
+Grenada : GD
+St. Vin. and Gren. : VC
+Barbados : BB
+Saint Lucia : LC
+Dominica : DM
+U.S. Minor Outlying Is. : UM
+Montserrat : MS
+Antigua and Barb. : AG
+St. Kitts and Nevis : KN
+U.S. Virgin Is. : VI
+St-Barthélemy : BL
+Puerto Rico : PR
+Anguilla : AI
+British Virgin Is. : VG
+Jamaica : JM
+Cayman Is. : KY
+Bermuda : BM
+Heard I. and McDonald Is. : HM
+Saint Helena : SH
+Mauritius : MU
+Comoros : KM
+São Tomé and Principe : ST
+Cabo Verde : CV
+Malta : MT
+Jersey : JE
+Guernsey : GG
+Isle of Man : IM
+Åland : AX
+Faeroe Is. : FO
+Indian Ocean Ter. : -9
+Br. Indian Ocean Ter. : IO
+Singapore : SG
+Norfolk Island : NF
+Cook Is. : CK
+Tonga : TO
+Wallis and Futuna Is. : WF
+Samoa : WS
+Solomon Is. : SB
+Tuvalu : TV
+Maldives : MV
+Nauru : NR
+Micronesia : FM
+S. Geo. and the Is. : GS
+Falkland Is. : FK
+Vanuatu : VU
+Niue : NU
+American Samoa : AS
+Palau : PW
+Guam : GU
+N. Mariana Is. : MP
+Bahrain : BH
+Coral Sea Is. : -9
+Spratly Is. : -9
+Clipperton I. : -9
+Macao : MO
+Ashmore and Cartier Is. : -9
+Bajo Nuevo Bank : -9
+Serranilla Bank : -9
+Scarborough Reef : -9
